@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/11/2013 12:09:24 AM
+EESchema Schematic File Version 2  date 9/12/2013 12:59:50 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -34,9 +34,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 2 8
 Title ""
-Date "11 sep 2013"
+Date "12 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -44,4 +44,24 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Text HLabel 7950 4550 0    60   Output ~ 0
+Relay+
+Text HLabel 7950 4700 0    60   Input ~ 0
+Relay-
+Text HLabel 7750 3450 0    60   Output ~ 0
+MOSI
+Text HLabel 7750 3600 0    60   Input ~ 0
+MISO
+Text HLabel 7750 3750 0    60   Output ~ 0
+SCLK
+Text HLabel 7750 3900 0    60   Output ~ 0
+CS_N
+Text HLabel 7750 2600 0    60   Output ~ 0
+LED_EN
+Text HLabel 7800 2800 0    60   Output ~ 0
+LED_FREQ
+Text HLabel 7700 1600 0    60   Output ~ 0
+FAN_EN
+Text HLabel 7700 1750 0    60   Input ~ 0
+TACH_MEAS
 $EndSCHEMATC
