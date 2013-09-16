@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/15/2013 7:58:14 PM
+EESchema Schematic File Version 2  date 9/16/2013 1:33:56 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -36,7 +36,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "noname.sch"
-Date "15 sep 2013"
+Date "16 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -99,15 +99,20 @@ F4 "String+" O R 9350 3000 60
 F5 "String-" I R 9350 3150 60 
 $EndSheet
 $Sheet
-S 7800 1450 1500 1050
+S 7800 850  1500 1600
 U 522FEB24
 F0 "Fan" 50
 F1 "Fan.sch" 50
-F2 "Power+" O R 9300 1650 60 
-F3 "Power-" I R 9300 1800 60 
-F4 "Tach" I R 9300 1950 60 
-F5 "Tach_out" O L 7800 1950 60 
-F6 "Fan_In" I L 7800 1650 60 
+F2 "Power+" O R 9300 1050 60 
+F3 "Power-" I R 9300 1200 60 
+F4 "Tach" I R 9300 1350 60 
+F5 "Tach_out" O L 7800 2200 60 
+F6 "Fan_In" I L 7800 1050 60 
+F7 "Current Measure" O L 7800 2100 60 
+F8 "MOSI" I L 7800 1250 60 
+F9 "MISO" O L 7800 1350 60 
+F10 "CS_N" I L 7800 1450 60 
+F11 "SCLK" I L 7800 1550 60 
 $EndSheet
 $Sheet
 S 10050 2000 500  4550
