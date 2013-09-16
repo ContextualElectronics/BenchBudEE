@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/12/2013 12:58:05 AM
+EESchema Schematic File Version 2  date 9/12/2013 12:59:50 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -49,6 +49,16 @@ S 2800 3400 1600 3150
 U 522FEA6C
 F0 "Arduino" 50
 F1 "Arduino.sch" 50
+F2 "Relay+" O R 4400 5900 60 
+F3 "Relay-" I R 4400 6100 60 
+F4 "MOSI" O R 4400 5250 60 
+F5 "MISO" I R 4400 5400 60 
+F6 "SCLK" O R 4400 5500 60 
+F7 "CS_N" O R 4400 5600 60 
+F8 "LED_EN" O R 4400 4700 60 
+F9 "LED_FREQ" O R 4400 4850 60 
+F10 "FAN_EN" O R 4400 4250 60 
+F11 "TACH_MEAS" I R 4400 4400 60 
 $EndSheet
 $Sheet
 S 7750 4150 1700 1200
