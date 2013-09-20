@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/16/2013 1:33:56 AM
+EESchema Schematic File Version 2  date 9/19/2013 9:09:16 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBuddy
 LIBS:BenchBuddy-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 8
 Title "noname.sch"
-Date "16 sep 2013"
+Date "20 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -71,16 +72,6 @@ F4 "MOSI" I L 7750 4350 60
 F5 "MISO" O L 7750 4500 60 
 F6 "SCLK" I L 7750 4650 60 
 F7 "CS_N" I L 7750 4800 60 
-$EndSheet
-$Sheet
-S 7800 5600 1650 1250
-U 522FEAC6
-F0 "Relay" 50
-F1 "Relay.sch" 50
-F2 "DIN+" I L 7800 5850 60 
-F3 "DIN-" O L 7800 6150 60 
-F4 "Relay+" I R 9450 5900 60 
-F5 "Relay-" O R 9450 6150 60 
 $EndSheet
 $Sheet
 S 2800 1200 1800 1300
@@ -119,5 +110,16 @@ S 10050 2000 500  4550
 U 522FEB54
 F0 "TerminalBlock" 50
 F1 "TerminalBlock.sch" 50
+$EndSheet
+$Sheet
+S 7800 5600 1650 1250
+U 522FEAC6
+F0 "Relay" 50
+F1 "Relay.sch" 50
+F2 "DIN+" I L 7800 5950 60 
+F3 "DIN-" O L 7800 6150 60 
+F4 "NC" B R 9450 5900 60 
+F5 "NO" B R 9450 6300 60 
+F6 "COM" B R 9450 6100 60 
 $EndSheet
 $EndSCHEMATC

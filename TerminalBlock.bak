@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/16/2013 1:32:00 AM
+EESchema Schematic File Version 2  date 9/19/2013 9:09:15 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:BenchBuddy
 LIBS:BenchBuddy-cache
 EELAYER 27 0
 EELAYER END
@@ -36,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 8
 Title ""
-Date "16 sep 2013"
+Date "20 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
