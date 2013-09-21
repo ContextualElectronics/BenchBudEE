@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/19/2013 9:09:16 PM
+EESchema Schematic File Version 2  date 9/21/2013 3:11:47 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 8
+Sheet 1 9
 Title "noname.sch"
-Date "20 sep 2013"
+Date "21 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -74,7 +74,7 @@ F6 "SCLK" I L 7750 4650 60
 F7 "CS_N" I L 7750 4800 60 
 $EndSheet
 $Sheet
-S 2800 1200 1800 1300
+S 750  950  1800 1300
 U 522FEADB
 F0 "Power" 50
 F1 "Power.sch" 50
@@ -121,5 +121,11 @@ F3 "DIN-" O L 7800 6150 60
 F4 "NC" B R 9450 5900 60 
 F5 "NO" B R 9450 6300 60 
 F6 "COM" B R 9450 6100 60 
+$EndSheet
+$Sheet
+S 4750 900  1700 1300
+U 523DF54E
+F0 "PowerAdjustmentMonitor" 50
+F1 "PowerAdjustmentMonitor.sch" 50
 $EndSheet
 $EndSCHEMATC
