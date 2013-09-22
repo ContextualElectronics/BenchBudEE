@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/21/2013 6:30:50 PM
+EESchema Schematic File Version 2  date 9/22/2013 4:01:30 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title "noname.sch"
-Date "21 sep 2013"
+Date "22 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -100,10 +100,9 @@ S 7750 3600 1750 700
 U 522FEB12
 F0 "LED_Driver" 50
 F1 "LED_Driver.sch" 50
-F2 "EN" I L 7750 3800 60 
-F3 "FREQ" I L 7750 3950 60 
-F4 "String+" O R 9500 3800 60 
-F5 "String-" I R 9500 3950 60 
+F2 "String+" O R 9500 3800 60 
+F3 "String-" I R 9500 3950 60 
+F4 "LED_EN_PWM" I L 7750 3800 60 
 $EndSheet
 $Sheet
 S 7750 5800 1750 700 
