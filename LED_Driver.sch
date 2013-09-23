@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/22/2013 4:01:30 PM
+EESchema Schematic File Version 2  date 9/22/2013 9:40:39 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 9
 Title ""
-Date "22 sep 2013"
+Date "23 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -48,9 +48,7 @@ $EndDescr
 Text HLabel 2150 2950 0    60   Input ~ 0
 LED_EN_PWM
 Text HLabel 10400 1650 2    60   Output ~ 0
-String+
-Text HLabel 10350 2800 2    60   Input ~ 0
-String-
+LED_STRING+
 $Comp
 L AP5726 U?
 U 1 1 523F52C8
@@ -212,4 +210,6 @@ Wire Wire Line
 Wire Wire Line
 	5250 2300 5250 1650
 Connection ~ 5250 1650
+Text HLabel 10350 2800 2    60   Output ~ 0
+LED_STRING-
 $EndSCHEMATC
