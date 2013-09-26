@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2013 9:41:10 PM
+EESchema Schematic File Version 2  date 9/25/2013 9:42:53 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -169,13 +169,17 @@ Wire Wire Line
 Wire Wire Line
 	7750 2350 6700 2350
 Wire Wire Line
-	6700 2350 6700 4250
+	6700 2350 6700 3900
+Wire Wire Line
+	6700 3900 6700 4250
 Wire Wire Line
 	6700 4250 4400 4250
 Wire Wire Line
 	7750 2450 6800 2450
 Wire Wire Line
-	6800 2450 6800 4400
+	6800 2450 6800 4050
+Wire Wire Line
+	6800 4050 6800 4400
 Wire Wire Line
 	6800 4400 4400 4400
 Wire Wire Line
@@ -183,7 +187,9 @@ Wire Wire Line
 Wire Wire Line
 	6900 2550 6900 4550
 Wire Wire Line
-	7000 2650 7000 4700
+	7000 2650 7000 4200
+Wire Wire Line
+	7000 4200 7000 4700
 Wire Wire Line
 	7000 4700 4400 4700
 Wire Wire Line
@@ -253,11 +259,16 @@ F11 "LED_EN_PWM" O R 4400 5800 60
 F12 "DAC_CS_N" O R 4400 4550 60 
 F13 "ADC_CS_N" O R 4400 5300 60 
 F14 "FAN_PWM" O R 4400 4100 60 
+F15 "FAN_MODE" I R 4400 3950 60 
 $EndSheet
 Wire Wire Line
 	7750 2100 6500 2100
 Wire Wire Line
-	6500 2100 6500 4000
+	6500 3950 6500 2100
 Wire Wire Line
-	6500 4000 4650 4000
+	4550 3950 6500 3950
+Wire Wire Line
+	4550 3950 4550 3950
+Wire Wire Line
+	4550 3950 4400 3950
 $EndSCHEMATC
