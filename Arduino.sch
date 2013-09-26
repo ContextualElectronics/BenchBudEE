@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/22/2013 9:40:39 PM
+EESchema Schematic File Version 2  date 9/25/2013 9:41:11 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 9 9
 Title ""
-Date "23 sep 2013"
+Date "26 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,7 +45,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7100 5700 2    60   Output ~ 0
+Text HLabel 7150 5700 2    60   Output ~ 0
 RELAY+
 Text HLabel 9300 5700 2    60   Output ~ 0
 RELAY-
@@ -55,10 +55,10 @@ Text HLabel 7150 3900 2    60   Input ~ 0
 MISO
 Text HLabel 7150 3500 2    60   Output ~ 0
 SCLK
-Text HLabel 7150 4100 2    60   Output ~ 0
+Text HLabel 7150 4700 2    60   Output ~ 0
 DAC_CS_N
-Text HLabel 7100 5900 2    60   Output ~ 0
-FAN_EN_N
+Text HLabel 7150 4100 2    60   Output ~ 0
+FAN_PWM
 Text HLabel 2350 5450 0    60   Input ~ 0
 TACH_MEAS
 $Comp
@@ -77,33 +77,33 @@ CURR_MEAS
 $Comp
 L R R?
 U 1 1 52400F4A
-P 6600 5900
-F 0 "R?" V 6680 5900 40  0000 C CNN
-F 1 "R" V 6607 5901 40  0000 C CNN
-F 2 "~" V 6530 5900 30  0000 C CNN
-F 3 "~" H 6600 5900 30  0000 C CNN
-	1    6600 5900
+P 6650 4100
+F 0 "R?" V 6730 4100 40  0000 C CNN
+F 1 "R" V 6657 4101 40  0000 C CNN
+F 2 "~" V 6580 4100 30  0000 C CNN
+F 3 "~" H 6650 4100 30  0000 C CNN
+	1    6650 4100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7100 5900 6850 5900
+	7150 4100 6900 4100
 Wire Wire Line
-	6350 5900 6050 5900
+	6400 4100 6050 4100
 $Comp
 L R R?
 U 1 1 52400F79
-P 6600 5700
-F 0 "R?" V 6680 5700 40  0000 C CNN
-F 1 "R" V 6607 5701 40  0000 C CNN
-F 2 "~" V 6530 5700 30  0000 C CNN
-F 3 "~" H 6600 5700 30  0000 C CNN
-	1    6600 5700
+P 6650 5700
+F 0 "R?" V 6730 5700 40  0000 C CNN
+F 1 "R" V 6657 5701 40  0000 C CNN
+F 2 "~" V 6580 5700 30  0000 C CNN
+F 3 "~" H 6650 5700 30  0000 C CNN
+	1    6650 5700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7100 5700 6850 5700
+	7150 5700 6900 5700
 Wire Wire Line
-	6350 5700 6050 5700
+	6400 5700 6050 5700
 Wire Wire Line
 	8500 5700 8500 6100
 $Comp
@@ -217,12 +217,12 @@ $EndComp
 $Comp
 L R R?
 U 1 1 52402D41
-P 6650 4100
-F 0 "R?" V 6730 4100 40  0000 C CNN
-F 1 "R" V 6657 4101 40  0000 C CNN
-F 2 "~" V 6580 4100 30  0000 C CNN
-F 3 "~" H 6650 4100 30  0000 C CNN
-	1    6650 4100
+P 6650 4700
+F 0 "R?" V 6730 4700 40  0000 C CNN
+F 1 "R" V 6657 4701 40  0000 C CNN
+F 2 "~" V 6580 4700 30  0000 C CNN
+F 3 "~" H 6650 4700 30  0000 C CNN
+	1    6650 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -238,9 +238,9 @@ Wire Wire Line
 Wire Wire Line
 	6900 3900 7150 3900
 Wire Wire Line
-	7150 4100 6900 4100
+	7150 4700 6900 4700
 Wire Wire Line
-	6400 4100 6050 4100
+	6400 4700 6050 4700
 $Comp
 L R R?
 U 1 1 52402DDB
@@ -290,4 +290,49 @@ Text HLabel 7150 4500 2    60   Output ~ 0
 ADC_CS_N
 Wire Wire Line
 	7150 4500 6900 4500
+Text HLabel 7150 5900 2    60   Input ~ 0
+FAN_MODE
+$Comp
+L R R?
+U 1 1 5243CF0D
+P 6650 5900
+F 0 "R?" V 6730 5900 40  0000 C CNN
+F 1 "R" V 6657 5901 40  0000 C CNN
+F 2 "~" V 6580 5900 30  0000 C CNN
+F 3 "~" H 6650 5900 30  0000 C CNN
+	1    6650 5900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7150 5900 6900 5900
+Wire Wire Line
+	6400 5900 6050 5900
+$Comp
+L R R?
+U 1 1 5243CF86
+P 3100 4350
+F 0 "R?" V 3180 4350 40  0000 C CNN
+F 1 "R" V 3107 4351 40  0000 C CNN
+F 2 "~" V 3030 4350 30  0000 C CNN
+F 3 "~" H 3100 4350 30  0000 C CNN
+	1    3100 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 4350 3850 4350
+$Comp
+L +12P #PWR?
+U 1 1 5243CFCD
+P 2300 4050
+F 0 "#PWR?" H 2300 4020 30  0001 C CNN
+F 1 "+12P" H 2300 4150 30  0000 C CNN
+F 2 "~" H 2300 4050 60  0000 C CNN
+F 3 "~" H 2300 4050 60  0000 C CNN
+	1    2300 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2300 4050 2300 4350
+Wire Wire Line
+	2300 4350 2850 4350
 $EndSCHEMATC
