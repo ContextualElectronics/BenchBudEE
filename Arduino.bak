@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2013 9:41:11 PM
+EESchema Schematic File Version 2  date 9/29/2013 4:46:27 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "26 sep 2013"
+Date "29 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -323,16 +323,92 @@ Wire Wire Line
 $Comp
 L +12P #PWR?
 U 1 1 5243CFCD
-P 2300 4050
-F 0 "#PWR?" H 2300 4020 30  0001 C CNN
-F 1 "+12P" H 2300 4150 30  0000 C CNN
-F 2 "~" H 2300 4050 60  0000 C CNN
-F 3 "~" H 2300 4050 60  0000 C CNN
-	1    2300 4050
+P 1200 4050
+F 0 "#PWR?" H 1200 4020 30  0001 C CNN
+F 1 "+12P" H 1200 4150 30  0000 C CNN
+F 2 "~" H 1200 4050 60  0000 C CNN
+F 3 "~" H 1200 4050 60  0000 C CNN
+	1    1200 4050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2300 4050 2300 4350
+	1200 4050 1200 4350
 Wire Wire Line
-	2300 4350 2850 4350
+	1200 4350 2850 4350
+$Comp
+L R R?
+U 1 1 5245171E
+P 3100 3750
+F 0 "R?" V 3180 3750 40  0000 C CNN
+F 1 "R" V 3107 3751 40  0000 C CNN
+F 2 "~" V 3030 3750 30  0000 C CNN
+F 3 "~" H 3100 3750 30  0000 C CNN
+	1    3100 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 3750 3850 3750
+$Comp
+L +5V #PWR?
+U 1 1 5245176C
+P 1200 3500
+F 0 "#PWR?" H 1200 3590 20  0001 C CNN
+F 1 "+5V" H 1200 3590 30  0000 C CNN
+F 2 "~" H 1200 3500 60  0000 C CNN
+F 3 "~" H 1200 3500 60  0000 C CNN
+	1    1200 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 3750 1200 3750
+Wire Wire Line
+	1200 3750 1200 3500
+Wire Wire Line
+	3850 3950 3350 3950
+$Comp
+L R R?
+U 1 1 524517C0
+P 3100 3950
+F 0 "R?" V 3180 3950 40  0000 C CNN
+F 1 "R" V 3107 3951 40  0000 C CNN
+F 2 "~" V 3030 3950 30  0000 C CNN
+F 3 "~" H 3100 3950 30  0000 C CNN
+	1    3100 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 524517C6
+P 3100 4150
+F 0 "R?" V 3180 4150 40  0000 C CNN
+F 1 "R" V 3107 4151 40  0000 C CNN
+F 2 "~" V 3030 4150 30  0000 C CNN
+F 3 "~" H 3100 4150 30  0000 C CNN
+	1    3100 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3350 4150 3850 4150
+Wire Wire Line
+	2850 3950 2100 3950
+Wire Wire Line
+	2100 3950 2100 4150
+$Comp
+L GND #PWR?
+U 1 1 5245181B
+P 2100 4150
+F 0 "#PWR?" H 2100 4150 30  0001 C CNN
+F 1 "GND" H 2100 4080 30  0001 C CNN
+F 2 "~" H 2100 4150 60  0000 C CNN
+F 3 "~" H 2100 4150 60  0000 C CNN
+	1    2100 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4150 2500 4150
+Wire Wire Line
+	2500 4150 2500 3950
+Connection ~ 2500 3950
+Text Notes 6150 1900 0    60   ~ 0
+The signal Digital5 was skipped so the pin numbers for all the following pins are off by one.
 $EndSCHEMATC

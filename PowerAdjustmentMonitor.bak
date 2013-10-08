@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2013 9:41:11 PM
+EESchema Schematic File Version 2  date 9/29/2013 4:46:27 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 8 9
+Sheet 7 9
 Title ""
-Date "26 sep 2013"
+Date "29 sep 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -277,10 +277,6 @@ Text HLabel 9350 3050 2    60   Output ~ 0
 V+_ADJ_MON
 Text HLabel 9350 3250 2    60   Output ~ 0
 V-_ADJ_MON
-Text HLabel 9550 5600 2    60   Output ~ 0
-V-_CURR_MON
-Text HLabel 9550 4050 2    60   Output ~ 0
-V+_CURR_MON
 $Comp
 L R R?
 U 1 1 523E1074
@@ -325,98 +321,10 @@ F 3 "~" H 6500 5400 30  0000 C CNN
 	1    6500 5400
 	1    0    0    1   
 $EndComp
-$Comp
-L R R?
-U 1 1 523E1343
-P 4650 7250
-F 0 "R?" V 4730 7250 40  0000 C CNN
-F 1 "R" V 4657 7251 40  0000 C CNN
-F 2 "~" V 4580 7250 30  0000 C CNN
-F 3 "~" H 4650 7250 30  0000 C CNN
-	1    4650 7250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R?
-U 1 1 523E13F6
-P 4600 950
-F 0 "R?" V 4680 950 40  0000 C CNN
-F 1 "R" V 4607 951 40  0000 C CNN
-F 2 "~" V 4530 950 30  0000 C CNN
-F 3 "~" H 4600 950 30  0000 C CNN
-	1    4600 950 
-	0    -1   -1   0   
-$EndComp
 Text Label 4300 6800 0    60   ~ 0
 V-_MON
 Text Label 4200 1550 0    60   ~ 0
 V+_MON
-$Comp
-L LM324 U?
-U 1 1 523E1B4F
-P 8800 4050
-F 0 "U?" H 8850 4250 60  0000 C CNN
-F 1 "LM324" H 8950 3850 50  0000 C CNN
-F 2 "" H 8800 4050 60  0000 C CNN
-F 3 "" H 8800 4050 60  0000 C CNN
-	1    8800 4050
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR?
-U 1 1 523E1B57
-P 8700 3500
-F 0 "#PWR?" H 8700 3450 20  0001 C CNN
-F 1 "+12V" H 8700 3600 30  0000 C CNN
-F 2 "" H 8700 3500 60  0000 C CNN
-F 3 "" H 8700 3500 60  0000 C CNN
-	1    8700 3500
-	-1   0    0    -1  
-$EndComp
-$Comp
-L -12V #PWR?
-U 1 1 523E1B5D
-P 8700 4650
-F 0 "#PWR?" H 8700 4780 20  0001 C CNN
-F 1 "-12V" H 8700 4750 30  0000 C CNN
-F 2 "" H 8700 4650 60  0000 C CNN
-F 3 "" H 8700 4650 60  0000 C CNN
-	1    8700 4650
-	1    0    0    1   
-$EndComp
-$Comp
-L LM324 U?
-U 1 1 523E1C6E
-P 8800 5600
-F 0 "U?" H 8850 5800 60  0000 C CNN
-F 1 "LM324" H 8950 5400 50  0000 C CNN
-F 2 "" H 8800 5600 60  0000 C CNN
-F 3 "" H 8800 5600 60  0000 C CNN
-	1    8800 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L +12V #PWR?
-U 1 1 523E1C74
-P 8700 5050
-F 0 "#PWR?" H 8700 5000 20  0001 C CNN
-F 1 "+12V" H 8700 5150 30  0000 C CNN
-F 2 "" H 8700 5050 60  0000 C CNN
-F 3 "" H 8700 5050 60  0000 C CNN
-	1    8700 5050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L -12V #PWR?
-U 1 1 523E1C7A
-P 8700 6200
-F 0 "#PWR?" H 8700 6330 20  0001 C CNN
-F 1 "-12V" H 8700 6300 30  0000 C CNN
-F 2 "" H 8700 6200 60  0000 C CNN
-F 3 "" H 8700 6200 60  0000 C CNN
-	1    8700 6200
-	1    0    0    1   
-$EndComp
 Wire Wire Line
 	2200 3450 2900 3450
 Wire Wire Line
@@ -464,9 +372,7 @@ Wire Wire Line
 	2650 7250 2900 7250
 Connection ~ 2650 5450
 Wire Wire Line
-	3700 7250 4400 7250
-Wire Wire Line
-	4900 7250 5350 7250
+	3700 7250 5350 7250
 Wire Wire Line
 	3900 7250 3900 7200
 Wire Wire Line
@@ -535,9 +441,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2800 9350 2800
 Wire Wire Line
-	4850 950  5250 950 
-Wire Wire Line
-	3750 950  4350 950 
+	3750 950  5250 950 
 Wire Wire Line
 	4250 7250 4250 6800
 Wire Wire Line
@@ -549,49 +453,11 @@ Wire Wire Line
 	4150 1550 4600 1550
 Connection ~ 4150 950 
 Wire Wire Line
-	8700 4450 8700 4650
-Wire Wire Line
-	8700 3650 8700 3500
-Wire Wire Line
-	8700 6000 8700 6200
-Wire Wire Line
-	8700 5200 8700 5050
-Wire Wire Line
-	9550 5600 9300 5600
-Wire Wire Line
-	9300 4050 9550 4050
-Wire Wire Line
 	6700 3250 6700 5050
 Wire Wire Line
 	6700 5050 6500 5050
 Wire Wire Line
 	6500 3050 9350 3050
-Wire Wire Line
-	8050 4150 8300 4150
-Wire Wire Line
-	8050 4150 8050 4850
-Wire Wire Line
-	8050 4850 9400 4850
-Wire Wire Line
-	9400 4850 9400 4050
-Connection ~ 9400 4050
-Wire Wire Line
-	7750 3950 8300 3950
-Text Label 7900 3950 0    60   ~ 0
-V+_MON
-Wire Wire Line
-	7750 5500 8300 5500
-Wire Wire Line
-	8300 5700 8050 5700
-Wire Wire Line
-	8050 5700 8050 6450
-Wire Wire Line
-	8050 6450 9400 6450
-Wire Wire Line
-	9400 6450 9400 5600
-Connection ~ 9400 5600
-Text Label 7850 5500 0    60   ~ 0
-V-_MON
 $Comp
 L RVAR R?
 U 1 1 523E21E8
