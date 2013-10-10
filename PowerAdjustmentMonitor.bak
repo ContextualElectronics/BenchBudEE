@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/10/2013 12:17:15 AM
+EESchema Schematic File Version 2  date 10/10/2013 12:18:22 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -157,7 +157,7 @@ F 3 "~" H 1400 4250 60  0000 C CNN
 $EndComp
 $Comp
 L AGND #PWR?
-U 1 1 523E0910
+U 1 1 52562CAD
 P 2500 4400
 F 0 "#PWR?" H 2500 4400 40  0001 C CNN
 F 1 "AGND" H 2500 4330 50  0000 C CNN

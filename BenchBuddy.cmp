@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/10/2013 12:31:08 AM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/10/2013 1:41:48 AM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /522FEAC6/523BA12B;
 Reference = D2;
 ValeurCmp = B130-13-F;
-IdModule  = ;
+IdModule  = SMA;
 EndCmp
 
 BeginCmp
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /522FEAC6/523B9EF8;
 Reference = K1;
 ValeurCmp = 1461069-5;
-IdModule  = ;
+IdModule  = TE-SPDT;
 EndCmp
 
 BeginCmp
@@ -522,7 +522,7 @@ BeginCmp
 TimeStamp = /522FEAC6/52560B33;
 Reference = U1;
 ValeurCmp = LTV-816S;
-IdModule  = ;
+IdModule  = 4-SMD;
 EndCmp
 
 BeginCmp

@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/10/2013 12:18:22 AM
+EESchema Schematic File Version 2  date 10/10/2013 1:06:29 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -167,17 +167,13 @@ Wire Wire Line
 Wire Wire Line
 	7750 2350 6700 2350
 Wire Wire Line
-	6700 2350 6700 3900
-Wire Wire Line
-	6700 3900 6700 4250
+	6700 2350 6700 4250
 Wire Wire Line
 	6700 4250 4400 4250
 Wire Wire Line
 	7750 2450 6800 2450
 Wire Wire Line
-	6800 2450 6800 4050
-Wire Wire Line
-	6800 4050 6800 4400
+	6800 2450 6800 4400
 Wire Wire Line
 	6800 4400 4400 4400
 Wire Wire Line
@@ -185,9 +181,7 @@ Wire Wire Line
 Wire Wire Line
 	6900 2550 6900 4550
 Wire Wire Line
-	7000 2650 7000 4200
-Wire Wire Line
-	7000 4200 7000 4700
+	7000 2650 7000 4700
 Wire Wire Line
 	7000 4700 4400 4700
 Wire Wire Line
@@ -264,9 +258,5 @@ Wire Wire Line
 Wire Wire Line
 	6500 3950 6500 2100
 Wire Wire Line
-	4550 3950 6500 3950
-Wire Wire Line
-	4550 3950 4550 3950
-Wire Wire Line
-	4550 3950 4400 3950
+	4400 3950 6500 3950
 $EndSCHEMATC
