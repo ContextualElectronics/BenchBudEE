@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/10/2013 1:06:29 AM
+EESchema Schematic File Version 2  date 10/11/2013 1:04:35 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
 Title ""
-Date "10 oct 2013"
+Date "11 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -70,10 +70,10 @@ RELAY_NO
 Text HLabel 2000 7150 0    60   BiDi ~ 0
 RELAY_NC
 $Comp
-L +3.3V #PWR49
+L +3.3V #PWR058
 U 1 1 523FFDA7
 P 1750 950
-F 0 "#PWR49" H 1750 910 30  0001 C CNN
+F 0 "#PWR058" H 1750 910 30  0001 C CNN
 F 1 "+3.3V" H 1750 1060 30  0000 C CNN
 F 2 "~" H 1750 950 60  0000 C CNN
 F 3 "~" H 1750 950 60  0000 C CNN
@@ -81,10 +81,10 @@ F 3 "~" H 1750 950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR50
+L +5V #PWR059
 U 1 1 523FFDB6
 P 1750 1250
-F 0 "#PWR50" H 1750 1340 20  0001 C CNN
+F 0 "#PWR059" H 1750 1340 20  0001 C CNN
 F 1 "+5V" H 1750 1340 30  0000 C CNN
 F 2 "~" H 1750 1250 60  0000 C CNN
 F 3 "~" H 1750 1250 60  0000 C CNN
@@ -92,10 +92,10 @@ F 3 "~" H 1750 1250 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR51
+L GND #PWR060
 U 1 1 523FFDC5
 P 1750 1550
-F 0 "#PWR51" H 1750 1550 30  0001 C CNN
+F 0 "#PWR060" H 1750 1550 30  0001 C CNN
 F 1 "GND" H 1750 1480 30  0001 C CNN
 F 2 "~" H 1750 1550 60  0000 C CNN
 F 3 "~" H 1750 1550 60  0000 C CNN
