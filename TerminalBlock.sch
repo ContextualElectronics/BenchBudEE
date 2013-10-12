@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/11/2013 8:50:27 PM
+EESchema Schematic File Version 2  date 10/11/2013 9:16:27 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -103,10 +103,10 @@ F 3 "~" H 1750 1550 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_12 P?
+L CONN_12 P4
 U 1 1 5258A829
 P 5850 1450
-F 0 "P?" V 5800 1450 60  0000 C CNN
+F 0 "P4" V 5800 1450 60  0000 C CNN
 F 1 "12 Pin Terminal Block" V 5900 1450 60  0000 C CNN
 F 2 "" H 5850 1450 60  0000 C CNN
 F 3 "" H 5850 1450 60  0000 C CNN
@@ -190,10 +190,10 @@ Wire Wire Line
 Wire Wire Line
 	3750 4550 1900 4550
 $Comp
-L CONN_3 K?
+L CONN_3 P5
 U 1 1 5258AA07
 P 3800 5500
-F 0 "K?" V 3750 5500 50  0000 C CNN
+F 0 "P5" V 3750 5500 50  0000 C CNN
 F 1 "3 Pin TB" V 3850 5500 40  0000 C CNN
 F 2 "" H 3800 5500 60  0000 C CNN
 F 3 "" H 3800 5500 60  0000 C CNN

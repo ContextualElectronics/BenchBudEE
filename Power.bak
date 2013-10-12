@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/11/2013 1:46:03 AM
+EESchema Schematic File Version 2  date 10/11/2013 9:16:25 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "11 oct 2013"
+Date "12 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -50,9 +50,11 @@ L CONN_12X2 P1
 U 1 1 523DFA5D
 P 2650 2050
 F 0 "P1" H 2650 2700 60  0000 C CNN
-F 1 "CONN_12X2" V 2650 2050 50  0000 C CNN
+F 1 "24 Pin MiniFit JR" V 2650 2050 50  0000 C CNN
 F 2 "" H 2650 2050 60  0000 C CNN
 F 3 "" H 2650 2050 60  0000 C CNN
+F 4 "Molex" H 2650 2050 60  0001 C CNN "MFG Name"
+F 5 "39-30-1240" H 2650 2050 60  0001 C CNN "MFG Part Number"
 	1    2650 2050
 	1    0    0    -1  
 $EndComp
