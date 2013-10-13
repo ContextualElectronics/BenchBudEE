@@ -1,10 +1,10 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/11/2013 9:49:30 PM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 2:18:37 PM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
 Reference = ARD1;
 ValeurCmp = ARDUINOPINS;
-IdModule  = ;
+IdModule  = Arduino;
 EndCmp
 
 BeginCmp
@@ -410,126 +410,126 @@ BeginCmp
 TimeStamp = /522FEA6C/5245171E;
 Reference = R26;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/524517C0;
 Reference = R27;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/524517C6;
 Reference = R28;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/5243CF86;
 Reference = R29;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52402D06;
 Reference = R30;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52402CCD;
 Reference = R31;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52402349;
 Reference = R32;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/5240234F;
 Reference = R33;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52402D2F;
 Reference = R34;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52402D35;
 Reference = R35;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52402D3B;
 Reference = R36;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52400F4A;
 Reference = R37;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52402E11;
 Reference = R38;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/5240769E;
 Reference = R39;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52402D41;
 Reference = R40;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52400F79;
 Reference = R41;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/5243CF0D;
 Reference = R42;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52402DDB;
 Reference = R43;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -550,14 +550,14 @@ BeginCmp
 TimeStamp = /522FEA6C/52581128;
 Reference = R46;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEA6C/52581131;
 Reference = R47;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805-blob;
 EndCmp
 
 BeginCmp
