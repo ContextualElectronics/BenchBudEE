@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 8:20:14 PM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 8:31:07 PM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -88,7 +88,14 @@ BeginCmp
 TimeStamp = /522FEB24/525C14EF;
 Reference = C12;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEB24/525C19B8;
+Reference = C13;
+ValeurCmp = C;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -225,14 +232,14 @@ IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
-TimeStamp = /522FEB24/5243896F;
+TimeStamp = /522FEB24/525B433B;
 Reference = Q3;
 ValeurCmp = AOD476;
 IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
-TimeStamp = /522FEB24/523697B6;
+TimeStamp = /522FEB24/525B42A5;
 Reference = Q4;
 ValeurCmp = AOD476;
 IdModule  = DPAK2;
