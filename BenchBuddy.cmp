@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 2:18:37 PM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 8:20:14 PM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -85,6 +85,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /522FEB24/525C14EF;
+Reference = C12;
+ValeurCmp = C;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /522FEAC6/523B9961;
 Reference = D1;
 ValeurCmp = LG Q971-KN-1;
@@ -101,8 +108,8 @@ EndCmp
 BeginCmp
 TimeStamp = /522FEB24/52438A1C;
 Reference = D4;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = B130-13-F;
+IdModule  = SMA;
 EndCmp
 
 BeginCmp
@@ -213,22 +220,22 @@ EndCmp
 BeginCmp
 TimeStamp = /522FEB24/52438CB2;
 Reference = Q2;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = DMN65D8L-7;
+IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEB24/5243896F;
 Reference = Q3;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = AOD476;
+IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEB24/523697B6;
 Reference = Q4;
-ValeurCmp = MOSFET_N;
-IdModule  = ;
+ValeurCmp = AOD476;
+IdModule  = DPAK2;
 EndCmp
 
 BeginCmp
@@ -333,14 +340,14 @@ BeginCmp
 TimeStamp = /522FEB24/52369992;
 Reference = R15;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEB24/523697E7;
 Reference = R16;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -575,6 +582,20 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /522FEA6C/525B3E56;
+Reference = R50;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEA6C/525B3E5C;
+Reference = R51;
+ValeurCmp = R;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /522FEADB/523DFB25;
 Reference = SW1;
 ValeurCmp = SWITCH_INV;
@@ -612,8 +633,8 @@ EndCmp
 BeginCmp
 TimeStamp = /522FEB24/5243899F;
 Reference = TH5;
-ValeurCmp = THERMISTOR;
-IdModule  = ;
+ValeurCmp = MINISMDC050F-2;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
@@ -645,10 +666,10 @@ IdModule  = SO14N;
 EndCmp
 
 BeginCmp
-TimeStamp = /522FEB24/52369914;
+TimeStamp = /522FEB24/525B0EF5;
 Reference = U5;
-ValeurCmp = MCP4922-E/P;
-IdModule  = DIP14;
+ValeurCmp = MCP4801;
+IdModule  = SO8N;
 EndCmp
 
 BeginCmp
