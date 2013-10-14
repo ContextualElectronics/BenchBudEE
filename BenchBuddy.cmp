@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 11:35:11 PM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 11:50:16 PM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -606,7 +606,7 @@ BeginCmp
 TimeStamp = /522FEADB/523DFB25;
 Reference = SW1;
 ValeurCmp = SWITCH_INV;
-IdModule  = 1pin;
+IdModule  = BB_switch;
 EndCmp
 
 BeginCmp
