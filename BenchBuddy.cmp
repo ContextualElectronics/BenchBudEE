@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 8:31:07 PM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 11:35:11 PM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -18,21 +18,21 @@ BeginCmp
 TimeStamp = /522FEADB/52450308;
 Reference = C2;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/523E0C9F;
 Reference = C3;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/523E0CAC;
 Reference = C4;
 ValeurCmp = C;
-IdModule  = ;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -158,21 +158,21 @@ BeginCmp
 TimeStamp = /522FEADB/52450302;
 Reference = L1;
 ValeurCmp = INDUCTOR;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/523E0C97;
 Reference = L2;
 ValeurCmp = INDUCTOR;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/523E0C8A;
 Reference = L3;
 ValeurCmp = INDUCTOR;
-IdModule  = ;
+IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
@@ -340,7 +340,7 @@ BeginCmp
 TimeStamp = /522FEADB/523E08CC;
 Reference = R14;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -606,35 +606,35 @@ BeginCmp
 TimeStamp = /522FEADB/523DFB25;
 Reference = SW1;
 ValeurCmp = SWITCH_INV;
-IdModule  = ;
+IdModule  = 1pin;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/52439695;
 Reference = TH1;
 ValeurCmp = THERMISTOR;
-IdModule  = ;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/524396A2;
 Reference = TH2;
 ValeurCmp = THERMISTOR;
-IdModule  = ;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/524396A8;
 Reference = TH3;
 ValeurCmp = THERMISTOR;
-IdModule  = ;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/524396AE;
 Reference = TH4;
 ValeurCmp = THERMISTOR;
-IdModule  = ;
+IdModule  = SM1812;
 EndCmp
 
 BeginCmp
