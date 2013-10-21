@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/13/2013 11:50:16 PM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/16/2013 9:46:07 PM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -134,20 +134,6 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/523E069B;
-Reference = JP2;
-ValeurCmp = JUMPER;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /523DF54E/523E06A8;
-Reference = JP3;
-ValeurCmp = JUMPER;
-IdModule  = ;
-EndCmp
-
-BeginCmp
 TimeStamp = /522FEAC6/523B9EF8;
 Reference = K1;
 ValeurCmp = 1461069-5;
@@ -157,21 +143,21 @@ EndCmp
 BeginCmp
 TimeStamp = /522FEADB/52450302;
 Reference = L1;
-ValeurCmp = INDUCTOR;
+ValeurCmp = CM322522-220KL;
 IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
-TimeStamp = /522FEADB/523E0C97;
+TimeStamp = /522FEADB/525B71B2;
 Reference = L2;
-ValeurCmp = INDUCTOR;
+ValeurCmp = CM322522-220KL;
 IdModule  = SM1210L;
 EndCmp
 
 BeginCmp
-TimeStamp = /522FEADB/523E0C8A;
+TimeStamp = /522FEADB/525B71AA;
 Reference = L3;
-ValeurCmp = INDUCTOR;
+ValeurCmp = CM322522-220KL;
 IdModule  = SM1210L;
 EndCmp
 
@@ -365,14 +351,14 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/523E0AC1;
+TimeStamp = /523DF54E/525F4570;
 Reference = R18;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/523E21E8;
+TimeStamp = /523DF54E/525F4930;
 Reference = R19;
 ValeurCmp = RVAR;
 IdModule  = ;
@@ -389,35 +375,35 @@ BeginCmp
 TimeStamp = /523DF54E/523E0B81;
 Reference = R21;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E1074;
 Reference = R22;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E107A;
 Reference = R23;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E114C;
 Reference = R24;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E1152;
 Reference = R25;
 ValeurCmp = R;
-IdModule  = ;
+IdModule  = SM0805;
 EndCmp
 
 BeginCmp
@@ -603,37 +589,65 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
+TimeStamp = /523DF54E/525F4459;
+Reference = R52;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F4462;
+Reference = R53;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F3FF2;
+Reference = R54;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F3FD3;
+Reference = R55;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /522FEADB/523DFB25;
 Reference = SW1;
-ValeurCmp = SWITCH_INV;
+ValeurCmp = Power Switch;
 IdModule  = BB_switch;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/52439695;
 Reference = TH1;
-ValeurCmp = THERMISTOR;
+ValeurCmp = MINISMDC050F-2;
 IdModule  = SM1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /522FEADB/524396A2;
+TimeStamp = /522FEADB/525B6E76;
 Reference = TH2;
-ValeurCmp = THERMISTOR;
+ValeurCmp = MINISMDC050F-2;
 IdModule  = SM1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /522FEADB/524396A8;
+TimeStamp = /522FEADB/525B6E7E;
 Reference = TH3;
-ValeurCmp = THERMISTOR;
+ValeurCmp = MINISMDC050F-2;
 IdModule  = SM1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /522FEADB/524396AE;
+TimeStamp = /522FEADB/525B6E86;
 Reference = TH4;
-ValeurCmp = THERMISTOR;
+ValeurCmp = MINISMDC050F-2;
 IdModule  = SM1812;
 EndCmp
 
@@ -680,6 +694,13 @@ IdModule  = SO8N;
 EndCmp
 
 BeginCmp
+TimeStamp = /523DF54E/525F4568;
+Reference = U6;
+ValeurCmp = LM337T;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
 TimeStamp = /522FEB12/523F52C8;
 Reference = U7;
 ValeurCmp = AP5726;
@@ -687,31 +708,24 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/523E09EA;
+TimeStamp = /523DF54E/525F4380;
 Reference = U8;
-ValeurCmp = 7805;
-IdModule  = ;
+ValeurCmp = LM337T;
+IdModule  = TO220;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/523E09F7;
+TimeStamp = /523DF54E/525F3FCD;
 Reference = U9;
-ValeurCmp = 7805;
-IdModule  = ;
-EndCmp
-
-BeginCmp
-TimeStamp = /523DF54E/523E0682;
-Reference = U10;
 ValeurCmp = LM317;
-IdModule  = ;
+IdModule  = TO220;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E0B74;
 Reference = U11;
 ValeurCmp = LM317;
-IdModule  = ;
+IdModule  = TO220;
 EndCmp
 
 EndListe
