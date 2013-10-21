@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Chris/Dropbox/ContextualElectronics/projects/BenchBuddy/BenchBuddy.sch)
-    (date "10/16/2013 9:46:26 PM")
+    (date "10/21/2013 12:14:24 AM")
     (tool "eeschema (2013-03-19 BZR 4004)-stable"))
   (components
     (comp (ref U4)
