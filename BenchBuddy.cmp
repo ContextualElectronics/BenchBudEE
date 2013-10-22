@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/21/2013 12:20:34 AM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/22/2013 12:20:47 AM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -197,10 +197,10 @@ IdModule  = SMA;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/525F5B37;
+TimeStamp = /523DF54E/52660D76;
 Reference = D3;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
@@ -218,38 +218,52 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/525F5C38;
+TimeStamp = /523DF54E/52660812;
 Reference = D6;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/525F6308;
+TimeStamp = /523DF54E/52660C4F;
 Reference = D7;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/525F5A1A;
 Reference = D8;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/525F600F;
+TimeStamp = /523DF54E/5266091B;
 Reference = D9;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/525F5E1B;
 Reference = D10;
-ValeurCmp = DIODE;
-IdModule  = ;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/52660EA9;
+Reference = D11;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/52660B34;
+Reference = D12;
+ValeurCmp = MMBD914-7-F;
+IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
@@ -479,28 +493,28 @@ EndCmp
 BeginCmp
 TimeStamp = /523DF54E/525F4570;
 Reference = R18;
-ValeurCmp = R;
+ValeurCmp = 715;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/525F4930;
 Reference = R19;
-ValeurCmp = RVAR;
-IdModule  = ;
+ValeurCmp = 5K;
+IdModule  = EVUE3K;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E21FB;
 Reference = R20;
-ValeurCmp = RVAR;
-IdModule  = ;
+ValeurCmp = 5K;
+IdModule  = EVUE3K;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E0B81;
 Reference = R21;
-ValeurCmp = R;
+ValeurCmp = 715;
 IdModule  = SM0805;
 EndCmp
 
