@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/22/2013 9:09:24 PM
+EESchema Schematic File Version 2  date 10/27/2013 11:25:35 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -35,9 +35,9 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 9
+Sheet 7 9
 Title ""
-Date "23 oct 2013"
+Date "28 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,13 +45,13 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1850 2000 0    60   Input ~ 0
+Text HLabel 1750 900  0    60   Input ~ 0
 V+_ADJ
-Text HLabel 1850 2200 0    60   Input ~ 0
+Text HLabel 1750 1350 0    60   Input ~ 0
 V-_ADJ
-Text HLabel 1850 3350 0    60   Output ~ 0
+Text HLabel 1900 4550 0    60   Output ~ 0
 FAN_OUT+
-Text HLabel 1850 3600 0    60   Output ~ 0
+Text HLabel 1900 4400 0    60   Output ~ 0
 FAN_OUT-
 Text HLabel 1850 3750 0    60   Input ~ 0
 TACH_IN
@@ -59,9 +59,9 @@ Text HLabel 1850 2400 0    60   Output ~ 0
 LED_STRING+
 Text HLabel 1850 2550 0    60   Output ~ 0
 LED_STRING-
-Text HLabel 1900 4400 0    60   Input ~ 0
+Text HLabel 1850 3350 0    60   Input ~ 0
 TC_IN+
-Text HLabel 1900 4550 0    60   Input ~ 0
+Text HLabel 1850 3600 0    60   Input ~ 0
 TC_IN-
 Text HLabel 2850 5500 0    60   BiDi ~ 0
 RELAY_COM
@@ -70,32 +70,32 @@ RELAY_NO
 Text HLabel 2850 5800 0    60   BiDi ~ 0
 RELAY_NC
 $Comp
-L +3.3V #PWR046
+L +3.3V #PWR042
 U 1 1 523FFDA7
-P 1750 800
-F 0 "#PWR046" H 1750 760 30  0001 C CNN
-F 1 "+3.3V" H 1750 910 30  0000 C CNN
-F 2 "~" H 1750 800 60  0000 C CNN
-F 3 "~" H 1750 800 60  0000 C CNN
-	1    1750 800 
+P 1750 1850
+F 0 "#PWR042" H 1750 1810 30  0001 C CNN
+F 1 "+3.3V" H 1750 1960 30  0000 C CNN
+F 2 "~" H 1750 1850 60  0000 C CNN
+F 3 "~" H 1750 1850 60  0000 C CNN
+	1    1750 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR047
+L +5V #PWR043
 U 1 1 523FFDB6
-P 1750 1250
-F 0 "#PWR047" H 1750 1340 20  0001 C CNN
-F 1 "+5V" H 1750 1340 30  0000 C CNN
-F 2 "~" H 1750 1250 60  0000 C CNN
-F 3 "~" H 1750 1250 60  0000 C CNN
-	1    1750 1250
+P 1800 2150
+F 0 "#PWR043" H 1800 2240 20  0001 C CNN
+F 1 "+5V" H 1800 2240 30  0000 C CNN
+F 2 "~" H 1800 2150 60  0000 C CNN
+F 3 "~" H 1800 2150 60  0000 C CNN
+	1    1800 2150
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR048
+L GND #PWR044
 U 1 1 523FFDC5
 P 1750 1550
-F 0 "#PWR048" H 1750 1550 30  0001 C CNN
+F 0 "#PWR044" H 1750 1550 30  0001 C CNN
 F 1 "GND" H 1750 1480 30  0001 C CNN
 F 2 "~" H 1750 1550 60  0000 C CNN
 F 3 "~" H 1750 1550 60  0000 C CNN
@@ -118,10 +118,6 @@ $EndComp
 Wire Wire Line
 	5500 900  1750 900 
 Wire Wire Line
-	1750 900  1750 800 
-Wire Wire Line
-	1750 1250 1750 1350
-Wire Wire Line
 	1750 1350 2050 1350
 Wire Wire Line
 	2050 1350 2050 1000
@@ -136,8 +132,6 @@ Wire Wire Line
 Wire Wire Line
 	1750 1500 1750 1550
 Wire Wire Line
-	1850 2000 2350 2000
-Wire Wire Line
 	2350 2000 2350 1200
 Wire Wire Line
 	2350 1200 5500 1200
@@ -145,8 +139,6 @@ Wire Wire Line
 	5500 1300 2500 1300
 Wire Wire Line
 	2500 1300 2500 2200
-Wire Wire Line
-	2500 2200 1850 2200
 Wire Wire Line
 	1850 2400 2700 2400
 Wire Wire Line
@@ -216,4 +208,12 @@ Wire Wire Line
 	3250 5600 3250 5800
 Wire Wire Line
 	3250 5800 2850 5800
+Wire Wire Line
+	1800 2150 1800 2200
+Wire Wire Line
+	1800 2200 2500 2200
+Wire Wire Line
+	2350 2000 1750 2000
+Wire Wire Line
+	1750 2000 1750 1850
 $EndSCHEMATC
