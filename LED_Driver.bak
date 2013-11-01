@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/27/2013 11:25:34 PM
+EESchema Schematic File Version 2  date 10/31/2013 8:54:24 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
-Date "28 oct 2013"
+Date "1 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -62,17 +62,6 @@ F 3 "" H 3550 3150 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2150 2950 2850 2950
-$Comp
-L +5V #PWR016
-U 1 1 523F5D4A
-P 2550 1450
-F 0 "#PWR016" H 2550 1540 20  0001 C CNN
-F 1 "+5V" H 2550 1540 30  0000 C CNN
-F 2 "~" H 2550 1450 60  0000 C CNN
-F 3 "~" H 2550 1450 60  0000 C CNN
-	1    2550 1450
-	1    0    0    -1  
-$EndComp
 $Comp
 L GND #PWR017
 U 1 1 523F5D68
@@ -213,4 +202,15 @@ Wire Wire Line
 Connection ~ 5250 1650
 Text HLabel 10350 2800 2    60   Output ~ 0
 LED_STRING-
+$Comp
+L +5P #PWR?
+U 1 1 527304B1
+P 2550 1450
+F 0 "#PWR?" H 2550 1580 20  0001 C CNN
+F 1 "+5P" H 2550 1550 30  0000 C CNN
+F 2 "~" H 2550 1450 60  0000 C CNN
+F 3 "~" H 2550 1450 60  0000 C CNN
+	1    2550 1450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

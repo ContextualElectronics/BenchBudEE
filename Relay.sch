@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/27/2013 11:25:35 PM
+EESchema Schematic File Version 2  date 10/31/2013 9:00:44 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "28 oct 2013"
+Date "1 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -121,10 +121,10 @@ F 3 "~" H 8800 4900 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR020
+L GND #PWR24
 U 1 1 523B9FB4
 P 8800 5650
-F 0 "#PWR020" H 8800 5650 30  0001 C CNN
+F 0 "#PWR24" H 8800 5650 30  0001 C CNN
 F 1 "GND" H 8800 5580 30  0001 C CNN
 F 2 "" H 8800 5650 60  0000 C CNN
 F 3 "" H 8800 5650 60  0000 C CNN
@@ -166,10 +166,10 @@ F 3 "~" H 6450 2050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +12P #PWR021
+L +12P #PWR23
 U 1 1 523BA00D
 P 6450 1450
-F 0 "#PWR021" H 6450 1420 30  0001 C CNN
+F 0 "#PWR23" H 6450 1420 30  0001 C CNN
 F 1 "+12P" H 6450 1550 30  0000 C CNN
 F 2 "" H 6450 1450 60  0000 C CNN
 F 3 "" H 6450 1450 60  0000 C CNN
