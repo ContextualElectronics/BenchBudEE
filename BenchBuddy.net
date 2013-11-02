@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source C:/Users/Chris/Dropbox/ContextualElectronics/projects/BenchBuddy/BenchBuddy.sch)
-    (date "10/31/2013 9:00:48 PM")
+    (date "11/2/2013 7:04:45 PM")
     (tool "eeschema (2013-03-19 BZR 4004)-stable"))
   (components
     (comp (ref U4)
@@ -1105,10 +1105,10 @@
     (net (code 1) (name /Relay/RELAY_COM)
       (node (ref K1) (pin 1))
       (node (ref P5) (pin 2)))
-    (net (code 2) (name /Relay/RELAY_NC)
+    (net (code 2) (name /Relay/RELAY_NO)
       (node (ref K1) (pin 4))
       (node (ref P5) (pin 1)))
-    (net (code 3) (name /TerminalBlock/RELAY_NC)
+    (net (code 3) (name /Relay/RELAY_NC)
       (node (ref K1) (pin 3))
       (node (ref P5) (pin 3)))
     (net (code 4) (name /LED_Driver/LED_STRING+)

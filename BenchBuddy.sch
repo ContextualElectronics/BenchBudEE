@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/31/2013 9:00:44 PM
+EESchema Schematic File Version 2  date 11/2/2013 7:04:39 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title "noname.sch"
-Date "1 nov 2013"
+Date "2 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -200,8 +200,8 @@ F8 "LED_STRING-" O L 10150 5250 60
 F9 "TC_IN+" I L 10150 3900 60 
 F10 "TC_IN-" I L 10150 4050 60 
 F11 "RELAY_COM" B L 10150 6100 60 
-F12 "RELAY_NO" B L 10150 6250 60 
-F13 "RELAY_NC" B L 10150 6400 60 
+F12 "RELAY_NO" B L 10150 6400 60 
+F13 "RELAY_NC" B L 10150 6250 60 
 $EndSheet
 Wire Wire Line
 	9500 5100 10150 5100
@@ -284,7 +284,7 @@ $EndSheet
 Wire Wire Line
 	10150 6100 9500 6100
 Wire Wire Line
-	9500 6250 10150 6250
-Wire Wire Line
 	10150 6400 9500 6400
+Wire Wire Line
+	9500 6250 10150 6250
 $EndSCHEMATC

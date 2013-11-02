@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/31/2013 9:00:44 PM
+EESchema Schematic File Version 2  date 11/2/2013 7:04:39 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "1 nov 2013"
+Date "2 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -49,9 +49,9 @@ Text HLabel 2300 3450 0    60   Input ~ 0
 RELAY+
 Text HLabel 2300 3750 0    60   Output ~ 0
 RELAY-
-Text HLabel 10450 2650 2    60   BiDi ~ 0
-RELAY_NC
 Text HLabel 10450 2850 2    60   BiDi ~ 0
+RELAY_NC
+Text HLabel 10450 2650 2    60   BiDi ~ 0
 RELAY_NO
 $Comp
 L R R4
