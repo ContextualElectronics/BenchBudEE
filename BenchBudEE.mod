@@ -1,8 +1,10 @@
-PCBNEW-LibModule-V1  10/27/2013 5:31:40 PM
+PCBNEW-LibModule-V1  11/5/2013 12:18:10 AM
 # encoding utf-8
 Units mm
 $INDEX
 12pinTB
+3
+3mm-NPTH
 3pinTB
 4-SMD
 ATX_Header
@@ -115,6 +117,38 @@ Ne 0 ""
 Po 38.5 0
 $EndPAD
 $EndMODULE 12pinTB
+$MODULE 3
+Po 0 0 0 15 52771977 00000000 ~~
+Li 3
+Sc 0
+AR 
+Op 0 0 0
+T0 0 0 1 1 0 0.15 N V 21 N "324"
+T1 0 0 1 1 0 0.15 N V 21 N "VAL**"
+$PAD
+Sh "" C 3 3 0 0 0
+Dr 3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE 3
+$MODULE 3mm-NPTH
+Po 0 0 0 15 52787F7D 00000000 ~~
+Li 3mm-NPTH
+Sc 0
+AR 
+Op 0 0 0
+T0 -0.2 -2.8 1 1 0 0.15 N I 21 N "3 mm"
+T1 0 3.1 1 1 0 0.15 N I 21 N "VAL**"
+$PAD
+Sh "" C 3 3 0 0 0
+Dr 3 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE 3mm-NPTH
 $MODULE 3pinTB
 Po 0 0 0 15 5258A4A2 00000000 ~~
 Li 3pinTB
