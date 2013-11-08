@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/2/2013 7:04:39 PM
+EESchema Schematic File Version 2  date 11/7/2013 10:50:27 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "2 nov 2013"
+Date "8 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,23 +45,23 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 1925 2000 0    60   Input ~ 0
+Text HLabel 1900 4550 0    60   Input ~ 0
 V+_ADJ
-Text HLabel 1950 2225 0    60   Input ~ 0
+Text HLabel 1900 4400 0    60   Input ~ 0
 V-_ADJ
-Text HLabel 1900 4550 0    60   Output ~ 0
+Text HLabel 1875 2600 0    60   Output ~ 0
 FAN_OUT+
-Text HLabel 1900 4400 0    60   Output ~ 0
+Text HLabel 1875 2325 0    60   Output ~ 0
 FAN_OUT-
-Text HLabel 1850 3750 0    60   Input ~ 0
+Text HLabel 1875 2150 0    60   Input ~ 0
 TACH_IN
 Text HLabel 1450 900  0    60   Output ~ 0
 LED_STRING+
 Text HLabel 1425 1350 0    60   Output ~ 0
 LED_STRING-
-Text HLabel 1850 3350 0    60   Input ~ 0
+Text HLabel 1850 3000 0    60   Input ~ 0
 TC_IN+
-Text HLabel 1850 3600 0    60   Input ~ 0
+Text HLabel 1825 2825 0    60   Input ~ 0
 TC_IN-
 Text HLabel 2850 5500 0    60   BiDi ~ 0
 RELAY_COM
@@ -70,25 +70,25 @@ RELAY_NO
 Text HLabel 2850 5800 0    60   BiDi ~ 0
 RELAY_NC
 $Comp
-L +3.3V #PWR47
+L +3.3V #PWR041
 U 1 1 523FFDA7
-P 1075 2250
-F 0 "#PWR47" H 1075 2210 30  0001 C CNN
-F 1 "+3.3V" H 1075 2360 30  0000 C CNN
-F 2 "~" H 1075 2250 60  0000 C CNN
-F 3 "~" H 1075 2250 60  0000 C CNN
-	1    1075 2250
+P 750 3500
+F 0 "#PWR041" H 750 3460 30  0001 C CNN
+F 1 "+3.3V" H 750 3610 30  0000 C CNN
+F 2 "~" H 750 3500 60  0000 C CNN
+F 3 "~" H 750 3500 60  0000 C CNN
+	1    750  3500
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR48
+L +5V #PWR042
 U 1 1 523FFDB6
-P 1125 2550
-F 0 "#PWR48" H 1125 2640 20  0001 C CNN
-F 1 "+5V" H 1125 2640 30  0000 C CNN
-F 2 "~" H 1125 2550 60  0000 C CNN
-F 3 "~" H 1125 2550 60  0000 C CNN
-	1    1125 2550
+P 1000 3500
+F 0 "#PWR042" H 1000 3590 20  0001 C CNN
+F 1 "+5V" H 1000 3590 30  0000 C CNN
+F 2 "~" H 1000 3500 60  0000 C CNN
+F 3 "~" H 1000 3500 60  0000 C CNN
+	1    1000 3500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -105,8 +105,6 @@ F 5 "OSTTE120104" H 5850 1450 60  0001 C CNN "MFG Part Number"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 900  5500 900 
-Wire Wire Line
 	1425 1350 2050 1350
 Wire Wire Line
 	2050 1350 2050 1000
@@ -115,29 +113,27 @@ Wire Wire Line
 Wire Wire Line
 	2200 1100 5500 1100
 Wire Wire Line
-	2200 1100 2200 1750
+	2200 1100 2200 2150
 Wire Wire Line
-	1800 1750 1800 1800
-Wire Wire Line
-	2350 2000 2350 1200
+	2350 1200 2350 2325
 Wire Wire Line
 	2350 1200 5500 1200
 Wire Wire Line
 	5500 1300 2500 1300
 Wire Wire Line
-	2500 1300 2500 2225
+	2500 1300 2500 2600
 Wire Wire Line
-	2700 2400 2700 1400
+	2700 2825 2700 1400
 Wire Wire Line
 	2700 1400 5500 1400
 Wire Wire Line
-	1850 3350 3000 3350
+	1825 3350 3000 3350
 Wire Wire Line
-	1850 3600 3200 3600
+	1000 3600 3200 3600
 Wire Wire Line
-	1850 3750 3400 3750
+	750  3750 3400 3750
 Wire Wire Line
-	2850 2550 2850 1500
+	2850 1500 2850 3000
 Wire Wire Line
 	2850 1500 5500 1500
 Wire Wire Line
@@ -192,28 +188,32 @@ Wire Wire Line
 Wire Wire Line
 	3250 5800 2850 5800
 Wire Wire Line
-	1125 2550 2850 2550
+	1000 3500 1000 3600
 Wire Wire Line
-	2700 2400 1075 2400
+	750  3750 750  3500
 Wire Wire Line
-	1075 2400 1075 2250
+	2850 3000 1850 3000
 Wire Wire Line
-	2500 2225 1950 2225
+	2350 2325 1875 2325
 Wire Wire Line
-	1925 2000 2350 2000
+	2500 2600 1875 2600
+Wire Wire Line
+	2200 2150 1875 2150
+Wire Wire Line
+	1825 2825 2700 2825
 $Comp
-L GND #PWR49
-U 1 1 523FFDC5
-P 1800 1800
-F 0 "#PWR49" H 1800 1800 30  0001 C CNN
-F 1 "GND" H 1800 1730 30  0001 C CNN
-F 2 "~" H 1800 1800 60  0000 C CNN
-F 3 "~" H 1800 1800 60  0000 C CNN
-	1    1800 1800
+L GND #PWR043
+U 1 1 527C695D
+P 1825 3475
+F 0 "#PWR043" H 1825 3475 30  0001 C CNN
+F 1 "GND" H 1825 3405 30  0001 C CNN
+F 2 "~" H 1825 3475 60  0000 C CNN
+F 3 "~" H 1825 3475 60  0000 C CNN
+	1    1825 3475
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 1750 1800 1750
+	1825 3475 1825 3350
 Wire Wire Line
-	1750 900  1750 900 
+	1450 900  5500 900 
 $EndSCHEMATC
