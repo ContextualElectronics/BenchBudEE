@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 11/9/2013 9:10:42 PM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 11/10/2013 8:50:50 PM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -264,6 +264,34 @@ TimeStamp = /523DF54E/52660B34;
 Reference = D12;
 ValeurCmp = MMBD914-7-F;
 IdModule  = SOT23-DIODE;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/52804A88;
+Reference = JP1;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/52804A95;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/52804A9B;
+Reference = JP3;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/52804AA1;
+Reference = JP4;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp

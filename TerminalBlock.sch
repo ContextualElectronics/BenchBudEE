@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/9/2013 9:10:12 PM
+EESchema Schematic File Version 2  date 11/10/2013 9:27:17 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "10 nov 2013"
+Date "11 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -70,10 +70,10 @@ RELAY_NO
 Text HLabel 2850 5800 0    60   BiDi ~ 0
 RELAY_NC
 $Comp
-L +3.3V #PWR038
+L +3.3V #PWR44
 U 1 1 523FFDA7
 P 750 3500
-F 0 "#PWR038" H 750 3460 30  0001 C CNN
+F 0 "#PWR44" H 750 3460 30  0001 C CNN
 F 1 "+3.3V" H 750 3610 30  0000 C CNN
 F 2 "~" H 750 3500 60  0000 C CNN
 F 3 "~" H 750 3500 60  0000 C CNN
@@ -81,14 +81,14 @@ F 3 "~" H 750 3500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5V #PWR039
+L +5V #PWR45
 U 1 1 523FFDB6
-P 1000 3500
-F 0 "#PWR039" H 1000 3590 20  0001 C CNN
-F 1 "+5V" H 1000 3590 30  0000 C CNN
-F 2 "~" H 1000 3500 60  0000 C CNN
-F 3 "~" H 1000 3500 60  0000 C CNN
-	1    1000 3500
+P 1800 3200
+F 0 "#PWR45" H 1800 3290 20  0001 C CNN
+F 1 "+5V" H 1800 3290 30  0000 C CNN
+F 2 "~" H 1800 3200 60  0000 C CNN
+F 3 "~" H 1800 3200 60  0000 C CNN
+	1    1800 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -127,11 +127,11 @@ Wire Wire Line
 Wire Wire Line
 	2700 1400 5500 1400
 Wire Wire Line
-	1825 3350 3000 3350
+	1800 3350 3000 3350
 Wire Wire Line
 	1000 3600 3200 3600
 Wire Wire Line
-	750  3750 3400 3750
+	750  4100 3400 4100
 Wire Wire Line
 	2850 1500 2850 3000
 Wire Wire Line
@@ -147,7 +147,7 @@ Wire Wire Line
 Wire Wire Line
 	5500 1800 3400 1800
 Wire Wire Line
-	3400 1800 3400 3750
+	3400 1800 3400 4100
 Wire Wire Line
 	1900 4400 3550 4400
 Wire Wire Line
@@ -188,9 +188,7 @@ Wire Wire Line
 Wire Wire Line
 	3250 5800 2850 5800
 Wire Wire Line
-	1000 3500 1000 3600
-Wire Wire Line
-	750  3750 750  3500
+	750  4100 750  3500
 Wire Wire Line
 	2850 3000 1850 3000
 Wire Wire Line
@@ -202,18 +200,20 @@ Wire Wire Line
 Wire Wire Line
 	1825 2825 2700 2825
 Wire Wire Line
-	1825 3475 1825 3350
-Wire Wire Line
 	1450 900  5500 900 
 $Comp
-L GND_PWR #PWR040
+L GND_PWR #PWR46
 U 1 1 527EF77D
-P 1825 3475
-F 0 "#PWR040" H 1825 3475 30  0001 C CNN
-F 1 "GND_PWR" H 1825 3405 30  0000 C CNN
-F 2 "~" H 1825 3475 60  0000 C CNN
-F 3 "~" H 1825 3475 60  0000 C CNN
-	1    1825 3475
+P 1000 3875
+F 0 "#PWR46" H 1000 3875 30  0001 C CNN
+F 1 "GND_PWR" H 1000 3805 30  0000 C CNN
+F 2 "~" H 1000 3875 60  0000 C CNN
+F 3 "~" H 1000 3875 60  0000 C CNN
+	1    1000 3875
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1000 3600 1000 3875
+Wire Wire Line
+	1800 3200 1800 3350
 $EndSCHEMATC

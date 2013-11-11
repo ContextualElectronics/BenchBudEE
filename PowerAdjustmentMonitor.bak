@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/9/2013 8:45:51 PM
+EESchema Schematic File Version 2  date 11/10/2013 8:49:35 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
 Title ""
-Date "10 nov 2013"
+Date "11 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -824,10 +824,10 @@ Wire Wire Line
 	6550 3900 6550 3800
 Connection ~ 6800 3800
 $Comp
-L AGND #PWR?
+L AGND #PWR029
 U 1 1 527EFACA
 P 1250 3350
-F 0 "#PWR?" H 1250 3350 40  0001 C CNN
+F 0 "#PWR029" H 1250 3350 40  0001 C CNN
 F 1 "AGND" H 1250 3280 50  0000 C CNN
 F 2 "~" H 1250 3350 60  0000 C CNN
 F 3 "~" H 1250 3350 60  0000 C CNN
