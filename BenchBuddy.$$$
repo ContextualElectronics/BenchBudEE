@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 11/12/2013 11:57:57 PM
+Cmp-Mod V01 Created by PcbNew date = 11/14/2013 1:12:55 AM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -270,28 +270,28 @@ BeginCmp
 TimeStamp = /522FEADB/52804A88;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = GND_CONNECT;
+IdModule  = GND_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/52804A95;
 Reference = JP2;
 ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = GND_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/52804A9B;
 Reference = JP3;
 ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = GND_POINT;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEADB/52804AA1;
 Reference = JP4;
 ValeurCmp = JUMPER;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = GND_POINT;
 EndCmp
 
 BeginCmp
@@ -347,7 +347,7 @@ BeginCmp
 TimeStamp = /522FEABA/5258319A;
 Reference = P3;
 ValeurCmp = CONN_2;
-IdModule  = PIN_ARRAY_2X1;
+IdModule  = GND_POINT;
 EndCmp
 
 BeginCmp
@@ -822,6 +822,13 @@ EndCmp
 BeginCmp
 TimeStamp = /522FEADB/527EFE16;
 Reference = TP1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/52846001;
+Reference = TP2;
 ValeurCmp = CONN_1;
 IdModule  = 1pin;
 EndCmp
