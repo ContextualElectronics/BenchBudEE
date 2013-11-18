@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/13/2013 11:42:12 PM
+EESchema Schematic File Version 2  date 11/17/2013 9:07:35 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 9 9
 Title ""
-Date "14 nov 2013"
+Date "18 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -382,10 +382,10 @@ F 3 "~" H 4900 1150 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L +5P #PWR65
+L +5P #PWR66
 U 1 1 52450371
 P 7950 700
-F 0 "#PWR65" H 7950 830 20  0001 C CNN
+F 0 "#PWR66" H 7950 830 20  0001 C CNN
 F 1 "+5P" H 7950 800 30  0000 C CNN
 F 2 "~" H 7950 700 60  0000 C CNN
 F 3 "~" H 7950 700 60  0000 C CNN
@@ -656,4 +656,15 @@ $EndComp
 Wire Wire Line
 	6500 5400 6500 5550
 Connection ~ 6100 5400
+$Comp
+L CONN_1 TP2
+U 1 1 52846001
+P 6400 5250
+F 0 "TP2" H 6480 5250 40  0000 L CNN
+F 1 "CONN_1" H 6400 5305 30  0001 C CNN
+F 2 "" H 6400 5250 60  0000 C CNN
+F 3 "" H 6400 5250 60  0000 C CNN
+	1    6400 5250
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC

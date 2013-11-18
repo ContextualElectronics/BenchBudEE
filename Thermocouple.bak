@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/13/2013 11:42:12 PM
+EESchema Schematic File Version 2  date 11/17/2013 9:07:35 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "14 nov 2013"
+Date "18 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -231,11 +231,7 @@ Wire Wire Line
 Wire Wire Line
 	6250 2550 6250 2900
 Wire Wire Line
-	9000 2750 9000 2850
-Wire Wire Line
 	6250 3700 6250 3850
-Wire Wire Line
-	9000 1800 9000 1950
 Wire Wire Line
 	9000 5000 9000 4850
 Wire Wire Line
@@ -508,9 +504,7 @@ F 3 "~" H 2100 1550 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	2400 1300 2400 1800
-Wire Wire Line
-	2400 1550 2300 1550
+	2300 1550 2450 1550
 Connection ~ 2400 1550
 Wire Wire Line
 	1750 1650 1750 1550
@@ -520,17 +514,6 @@ Wire Wire Line
 	2300 4850 2300 4600
 Wire Wire Line
 	3100 4600 3100 4850
-$Comp
-L +5V #PWR04
-U 1 1 5257AAC2
-P 2400 1300
-F 0 "#PWR04" H 2400 1390 20  0001 C CNN
-F 1 "+5V" H 2400 1390 30  0000 C CNN
-F 2 "~" H 2400 1300 60  0000 C CNN
-F 3 "~" H 2400 1300 60  0000 C CNN
-	1    2400 1300
-	1    0    0    -1  
-$EndComp
 Text Notes 6500 6050 0    60   ~ 0
 TEMP SENSOR
 Text HLabel 850  3200 0    60   Input ~ 0
@@ -641,26 +624,26 @@ F 3 "~" H 9000 3950 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L FE_V- #PWR15
+L FE_V- #PWR16
 U 1 1 526E0207
-P 9000 1800
-F 0 "#PWR15" H 9000 2000 40  0001 C CNN
-F 1 "FE_V-" H 9000 1950 40  0000 C CNN
-F 2 "~" H 9000 1800 60  0000 C CNN
-F 3 "~" H 9000 1800 60  0000 C CNN
-	1    9000 1800
-	1    0    0    -1  
+P 9000 2800
+F 0 "#PWR16" H 9000 3000 40  0001 C CNN
+F 1 "FE_V-" H 9000 2950 40  0000 C CNN
+F 2 "~" H 9000 2800 60  0000 C CNN
+F 3 "~" H 9000 2800 60  0000 C CNN
+	1    9000 2800
+	-1   0    0    1   
 $EndComp
 $Comp
 L FE_V+ #PWR07
 U 1 1 526E020D
-P 9000 2850
-F 0 "#PWR07" H 9000 2950 30  0001 C CNN
-F 1 "FE_V+" H 9000 2950 30  0000 C CNN
-F 2 "~" H 9000 2850 60  0000 C CNN
-F 3 "~" H 9000 2850 60  0000 C CNN
-	1    9000 2850
-	-1   0    0    1   
+P 9000 1850
+F 0 "#PWR07" H 9000 1950 30  0001 C CNN
+F 1 "FE_V+" H 9000 1950 30  0000 C CNN
+F 2 "~" H 9000 1850 60  0000 C CNN
+F 3 "~" H 9000 1850 60  0000 C CNN
+	1    9000 1850
+	1    0    0    -1  
 $EndComp
 $Comp
 L AGND #PWR08
@@ -750,4 +733,24 @@ F 3 "~" H 4800 6900 60  0000 C CNN
 	1    4800 6900
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	9000 2800 9000 2750
+Wire Wire Line
+	9000 1850 9000 1950
+Wire Wire Line
+	2400 1550 2400 1800
+$Comp
+L INDUCTOR L?
+U 1 1 528976A6
+P 2750 1550
+F 0 "L?" V 2700 1550 40  0000 C CNN
+F 1 "INDUCTOR" V 2850 1550 40  0000 C CNN
+F 2 "SM0805" V 2600 1550 60  0000 C CNN
+F 3 "~" H 2750 1550 60  0000 C CNN
+	1    2750 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 1550 3100 1550
+Connection ~ 3100 1550
 $EndSCHEMATC
