@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 12/1/2013 9:07:54 PM
+Cmp-Mod V01 Created by PcbNew date = 12/3/2013 1:01:43 AM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -942,7 +942,7 @@ BeginCmp
 TimeStamp = /523DF54E/525F4568;
 Reference = U6;
 ValeurCmp = LM337T;
-IdModule  = TO220_VERT;
+IdModule  = TO220_BB;
 EndCmp
 
 BeginCmp
@@ -956,21 +956,21 @@ BeginCmp
 TimeStamp = /523DF54E/525F4380;
 Reference = U8;
 ValeurCmp = LM337T;
-IdModule  = TO220_VERT;
+IdModule  = TO220_BB;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/525F3FCD;
 Reference = U9;
 ValeurCmp = LM317;
-IdModule  = TO220_VERT;
+IdModule  = TO220_BB;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E0B74;
 Reference = U11;
 ValeurCmp = LM317;
-IdModule  = TO220_VERT;
+IdModule  = TO220_BB;
 EndCmp
 
 EndListe
