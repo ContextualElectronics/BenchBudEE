@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/1/2013 9:10:28 PM
+EESchema Schematic File Version 2  date 12/18/2013 11:27:14 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 9
 Title ""
-Date "2 dec 2013"
+Date "19 dec 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -204,7 +204,7 @@ Connection ~ 6850 2350
 Wire Wire Line
 	5150 2350 5000 2350
 Wire Wire Line
-	5000 2350 5000 3300
+	5000 1900 5000 3300
 Wire Wire Line
 	4250 3300 5650 3300
 Wire Wire Line
@@ -354,9 +354,9 @@ F 3 "" H 5700 6100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5000 5950 4700 5950
+	4700 5950 5000 5950
 Wire Wire Line
-	4700 5950 4700 3800
+	4700 3600 4700 5950
 Wire Wire Line
 	4700 3800 4250 3800
 Wire Wire Line
@@ -456,16 +456,16 @@ $EndComp
 $Comp
 L +5V #PWR3
 U 1 1 5257A5AA
-P 3100 1300
-F 0 "#PWR3" H 3100 1390 20  0001 C CNN
-F 1 "+5V" H 3100 1390 30  0000 C CNN
-F 2 "~" H 3100 1300 60  0000 C CNN
-F 3 "~" H 3100 1300 60  0000 C CNN
-	1    3100 1300
+P 3100 1100
+F 0 "#PWR3" H 3100 1190 20  0001 C CNN
+F 1 "+5V" H 3100 1190 30  0000 C CNN
+F 2 "~" H 3100 1100 60  0000 C CNN
+F 3 "~" H 3100 1100 60  0000 C CNN
+	1    3100 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3100 1300 3100 1800
+	3100 1100 3100 1800
 Wire Wire Line
 	4450 2600 4250 2600
 Wire Wire Line
@@ -809,4 +809,46 @@ F 3 "~" H 4450 3050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 4450 2900
+$Comp
+L CONN_1 TP3
+U 1 1 52B27F2B
+P 5200 1900
+F 0 "TP3" H 5280 1900 40  0000 L CNN
+F 1 "CH0" H 5200 1955 30  0001 C CNN
+F 2 "" H 5200 1900 60  0000 C CNN
+F 3 "" H 5200 1900 60  0000 C CNN
+	1    5200 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 1900 5000 1900
+Connection ~ 5000 2350
+$Comp
+L CONN_1 TP2
+U 1 1 52B27FD1
+P 4450 3600
+F 0 "TP2" H 4530 3600 40  0000 L CNN
+F 1 "CH1" H 4450 3655 30  0001 C CNN
+F 2 "" H 4450 3600 60  0000 C CNN
+F 3 "" H 4450 3600 60  0000 C CNN
+	1    4450 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4600 3600 4700 3600
+Connection ~ 4700 3800
+$Comp
+L CONN_1 TP1
+U 1 1 52B2A6E5
+P 3500 1250
+F 0 "TP1" H 3580 1250 40  0000 L CNN
+F 1 "5V" H 3500 1305 30  0001 C CNN
+F 2 "" H 3500 1250 60  0000 C CNN
+F 3 "" H 3500 1250 60  0000 C CNN
+	1    3500 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3100 1250 3350 1250
+Connection ~ 3100 1250
 $EndSCHEMATC

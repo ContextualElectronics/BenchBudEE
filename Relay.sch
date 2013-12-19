@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/3/2013 1:00:45 AM
+EESchema Schematic File Version 2  date 12/18/2013 11:27:15 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "3 dec 2013"
+Date "19 dec 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -256,7 +256,7 @@ $EndComp
 Wire Wire Line
 	8100 1800 8100 1550
 Wire Wire Line
-	8100 1550 6450 1550
+	6450 1550 8250 1550
 Connection ~ 6450 1550
 $Comp
 L GND_RELAY #PWR24
@@ -269,4 +269,31 @@ F 3 "~" H 8800 5650 60  0000 C CNN
 	1    8800 5650
 	1    0    0    -1  
 $EndComp
+$Comp
+L CONN_1 TP5
+U 1 1 52B28C6E
+P 9050 3800
+F 0 "TP5" H 9130 3800 40  0000 L CNN
+F 1 "RELAY_LOW" H 9050 3855 30  0001 C CNN
+F 2 "" H 9050 3800 60  0000 C CNN
+F 3 "" H 9050 3800 60  0000 C CNN
+	1    9050 3800
+	1    0    0    -1  
+$EndComp
+Connection ~ 8100 2750
+Wire Wire Line
+	8900 3800 8800 3800
+Connection ~ 8800 3800
+$Comp
+L CONN_1 TP4
+U 1 1 52B28CD2
+P 8400 1550
+F 0 "TP4" H 8480 1550 40  0000 L CNN
+F 1 "+12P" H 8400 1605 30  0001 C CNN
+F 2 "" H 8400 1550 60  0000 C CNN
+F 3 "" H 8400 1550 60  0000 C CNN
+	1    8400 1550
+	1    0    0    -1  
+$EndComp
+Connection ~ 8100 1550
 $EndSCHEMATC

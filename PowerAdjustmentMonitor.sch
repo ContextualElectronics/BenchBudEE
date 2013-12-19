@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 12/3/2013 1:00:45 AM
+EESchema Schematic File Version 2  date 12/18/2013 11:27:15 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 9
 Title ""
-Date "3 dec 2013"
+Date "19 dec 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -494,7 +494,7 @@ Connection ~ 3750 2550
 Wire Wire Line
 	3750 1950 3750 2000
 Wire Wire Line
-	3550 1950 4950 1950
+	3550 1950 5100 1950
 Wire Wire Line
 	1500 1950 2750 1950
 Wire Wire Line
@@ -538,7 +538,7 @@ Connection ~ 9100 1850
 Wire Wire Line
 	9100 3800 9100 2700
 Wire Wire Line
-	6550 3800 9100 3800
+	6350 3800 9100 3800
 Connection ~ 8150 3800
 Wire Wire Line
 	4650 2250 4650 1950
@@ -608,7 +608,7 @@ Connection ~ 8450 5450
 Wire Wire Line
 	3150 2550 4200 2550
 Wire Wire Line
-	3250 4700 4950 4700
+	3250 4700 5050 4700
 Wire Wire Line
 	4700 4100 4700 4700
 Connection ~ 4700 4700
@@ -896,10 +896,58 @@ F 3 "~" H 7550 1900 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1250 3150 4700 3150
+	1000 3150 4700 3150
 Wire Wire Line
 	4150 4000 4150 4150
 Wire Wire Line
 	4150 4550 4150 4700
 Connection ~ 4150 4700
+$Comp
+L CONN_1 TP9
+U 1 1 52B29910
+P 6200 3800
+F 0 "TP9" H 6280 3800 40  0000 L CNN
+F 1 "GND_PWR" H 6200 3855 30  0001 C CNN
+F 2 "" H 6200 3800 60  0000 C CNN
+F 3 "" H 6200 3800 60  0000 C CNN
+	1    6200 3800
+	-1   0    0    1   
+$EndComp
+Connection ~ 6550 3800
+$Comp
+L CONN_1 TP8
+U 1 1 52B299D0
+P 5250 1950
+F 0 "TP8" H 5330 1950 40  0000 L CNN
+F 1 "FE_V+" H 5250 2005 30  0001 C CNN
+F 2 "" H 5250 1950 60  0000 C CNN
+F 3 "" H 5250 1950 60  0000 C CNN
+	1    5250 1950
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 1950
+$Comp
+L CONN_1 TP7
+U 1 1 52B29A76
+P 5200 4700
+F 0 "TP7" H 5280 4700 40  0000 L CNN
+F 1 "FE_V-" H 5200 4755 30  0001 C CNN
+F 2 "" H 5200 4700 60  0000 C CNN
+F 3 "" H 5200 4700 60  0000 C CNN
+	1    5200 4700
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 4700
+$Comp
+L CONN_1 TP6
+U 1 1 52B29E0B
+P 850 3150
+F 0 "TP6" H 930 3150 40  0000 L CNN
+F 1 "AGND" H 850 3205 30  0001 C CNN
+F 2 "" H 850 3150 60  0000 C CNN
+F 3 "" H 850 3150 60  0000 C CNN
+	1    850  3150
+	-1   0    0    1   
+$EndComp
+Connection ~ 1250 3150
 $EndSCHEMATC

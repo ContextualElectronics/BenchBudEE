@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by PcbNew date = 12/3/2013 1:01:43 AM
+Cmp-Mod V01 Created by PcbNew date = 12/19/2013 12:02:56 AM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -445,14 +445,14 @@ BeginCmp
 TimeStamp = /522FEB24/525B433B;
 Reference = Q3;
 ValeurCmp = AOD476;
-IdModule  = DPAK2;
+IdModule  = DPAK2-BB;
 EndCmp
 
 BeginCmp
 TimeStamp = /522FEB24/525B42A5;
 Reference = Q4;
 ValeurCmp = AOD476;
-IdModule  = DPAK2;
+IdModule  = DPAK2-BB;
 EndCmp
 
 BeginCmp
@@ -564,7 +564,7 @@ BeginCmp
 TimeStamp = /522FEB24/523697E7;
 Reference = R16;
 ValeurCmp = R;
-IdModule  = SM1206;
+IdModule  = SM1206-NO;
 EndCmp
 
 BeginCmp
@@ -855,6 +855,13 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+TimeStamp = /522FEADB/527EFE16;
+Reference = STAR1;
+ValeurCmp = CONN_1;
+IdModule  = ;
+EndCmp
+
+BeginCmp
 TimeStamp = /522FEADB/523DFB25;
 Reference = SW1;
 ValeurCmp = Power Switch;
@@ -897,10 +904,73 @@ IdModule  = SM1812;
 EndCmp
 
 BeginCmp
-TimeStamp = /522FEADB/527EFE16;
+TimeStamp = /522FEABA/52B2A6E5;
 Reference = TP1;
 ValeurCmp = CONN_1;
-IdModule  = 1pin;
+IdModule  = TestPointTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEABA/52B27FD1;
+Reference = TP2;
+ValeurCmp = CONN_1;
+IdModule  = TestPointTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEABA/52B27F2B;
+Reference = TP3;
+ValeurCmp = CONN_1;
+IdModule  = TestPointTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEAC6/52B28CD2;
+Reference = TP4;
+ValeurCmp = CONN_1;
+IdModule  = TestPointTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEAC6/52B28C6E;
+Reference = TP5;
+ValeurCmp = CONN_1;
+IdModule  = TestPointTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/52B29E0B;
+Reference = TP6;
+ValeurCmp = CONN_1;
+IdModule  = TestPointTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/52B29A76;
+Reference = TP7;
+ValeurCmp = CONN_1;
+IdModule  = TestPointTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/52B299D0;
+Reference = TP8;
+ValeurCmp = CONN_1;
+IdModule  = TestPointTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/52B29910;
+Reference = TP9;
+ValeurCmp = CONN_1;
+IdModule  = TestPointTH;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEB24/52B283CC;
+Reference = TP10;
+ValeurCmp = CONN_1;
+IdModule  = TestPointTH;
 EndCmp
 
 BeginCmp
@@ -960,16 +1030,16 @@ IdModule  = TO220_BB;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/525F3FCD;
+TimeStamp = /523DF54E/529D78EC;
 Reference = U9;
-ValeurCmp = LM317;
+ValeurCmp = LM317T;
 IdModule  = TO220_BB;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/523E0B74;
+TimeStamp = /523DF54E/529D799C;
 Reference = U11;
-ValeurCmp = LM317;
+ValeurCmp = LM317T;
 IdModule  = TO220_BB;
 EndCmp
 
