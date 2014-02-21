@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 9/25/2013 9:42:53 PM
+EESchema Schematic File Version 2  date 10/6/2013 4:17:57 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title "noname.sch"
-Date "26 sep 2013"
+Date "6 oct 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -111,8 +111,6 @@ F4 "3V3_MON" O L 4750 1200 60
 F5 "5V_MON" O L 4750 1000 60 
 F6 "V+_ADJ_MON" O L 4750 1900 60 
 F7 "V-_ADJ_MON" O L 4750 2050 60 
-F8 "V-_CURR_MON" O L 4750 1600 60 
-F9 "V+_CURR_MON" O L 4750 1400 60 
 $EndSheet
 $Sheet
 S 10150 850  750  5700

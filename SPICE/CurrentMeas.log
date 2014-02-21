@@ -1,0 +1,25 @@
+Circuit: * C:\Users\Chris\Dropbox\ContextualElectronics\projects\BenchBuddy\SPICE\CurrentMeas.asc
+
+WARNING: Less than two connections to node 5V.  This node is used by V4.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 9.76562e-010 to 3.97656e-009
+
+Date: Sun Sep 29 21:05:34 2013
+Total elapsed time: 2.763 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 45303
+traniter = 45278
+tranpoints = 13414
+accept = 9737
+rejected = 3678
+matrix size = 45
+fillins = 69
+solver = Normal
+Thread vector: 38.4/21.6[2] 6.4/4.4[2] 2.7/2.4[2] 0.6/1.8[1]  2592/500
+Matrix Compiler1: 5.91 KB object code size  2.5/1.7/[0.6]
+Matrix Compiler2: off  [1.0]/1.5/7.4
+
+
