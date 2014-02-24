@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/10/2013 9:27:17 PM
+EESchema Schematic File Version 2  date 11/13/2013 1:25:48 AM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 7 9
 Title ""
-Date "11 nov 2013"
+Date "13 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -78,17 +78,6 @@ F 1 "+3.3V" H 750 3610 30  0000 C CNN
 F 2 "~" H 750 3500 60  0000 C CNN
 F 3 "~" H 750 3500 60  0000 C CNN
 	1    750  3500
-	1    0    0    -1  
-$EndComp
-$Comp
-L +5V #PWR45
-U 1 1 523FFDB6
-P 1800 3200
-F 0 "#PWR45" H 1800 3290 20  0001 C CNN
-F 1 "+5V" H 1800 3290 30  0000 C CNN
-F 2 "~" H 1800 3200 60  0000 C CNN
-F 3 "~" H 1800 3200 60  0000 C CNN
-	1    1800 3200
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -202,10 +191,10 @@ Wire Wire Line
 Wire Wire Line
 	1450 900  5500 900 
 $Comp
-L GND_PWR #PWR46
+L GND_PWR #PWR45
 U 1 1 527EF77D
 P 1000 3875
-F 0 "#PWR46" H 1000 3875 30  0001 C CNN
+F 0 "#PWR45" H 1000 3875 30  0001 C CNN
 F 1 "GND_PWR" H 1000 3805 30  0000 C CNN
 F 2 "~" H 1000 3875 60  0000 C CNN
 F 3 "~" H 1000 3875 60  0000 C CNN
@@ -216,4 +205,15 @@ Wire Wire Line
 	1000 3600 1000 3875
 Wire Wire Line
 	1800 3200 1800 3350
+$Comp
+L +5P #PWR46
+U 1 1 52831A41
+P 1800 3200
+F 0 "#PWR46" H 1800 3330 20  0001 C CNN
+F 1 "+5P" H 1800 3300 30  0000 C CNN
+F 2 "~" H 1800 3200 60  0000 C CNN
+F 3 "~" H 1800 3200 60  0000 C CNN
+	1    1800 3200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
