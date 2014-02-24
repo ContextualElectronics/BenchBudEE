@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 10/22/2013 8:47:40 PM
+EESchema Schematic File Version 2  date 11/10/2013 8:49:35 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 9
 Title "noname.sch"
-Date "23 oct 2013"
+Date "11 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -92,21 +92,15 @@ F6 "V+_ADJ_MON" O L 2750 1500 60
 F7 "V-_ADJ_MON" O L 2750 1650 60 
 $EndSheet
 Wire Wire Line
-	10150 1100 4450 1100
+	4400 1100 10150 1100
 Wire Wire Line
-	4450 1300 10150 1300
+	4400 1300 10150 1300
 Wire Wire Line
 	9500 2150 10150 2150
 Wire Wire Line
 	10150 2300 9500 2300
 Wire Wire Line
 	9500 3050 10150 3050
-Wire Wire Line
-	9500 6000 10150 6000
-Wire Wire Line
-	10150 6150 9500 6150
-Wire Wire Line
-	9500 6300 10150 6300
 Wire Wire Line
 	2400 3550 2550 3550
 Wire Wire Line
@@ -205,14 +199,14 @@ F7 "LED_STRING+" O L 10150 5100 60
 F8 "LED_STRING-" O L 10150 5250 60 
 F9 "TC_IN+" I L 10150 3900 60 
 F10 "TC_IN-" I L 10150 4050 60 
-F11 "RELAY_COM" B L 10150 6000 60 
-F12 "RELAY_NO" B L 10150 6150 60 
-F13 "RELAY_NC" B L 10150 6300 60 
+F11 "RELAY_COM" B L 10150 6100 60 
+F12 "RELAY_NO" B L 10150 6400 60 
+F13 "RELAY_NC" B L 10150 6250 60 
 $EndSheet
 Wire Wire Line
 	9500 5100 10150 5100
 Wire Wire Line
-	9550 5250 10150 5250
+	9500 5250 10150 5250
 Wire Wire Line
 	5100 4500 7800 4500
 Wire Wire Line
@@ -287,4 +281,10 @@ U 522FEADB
 F0 "Power" 50
 F1 "Power.sch" 50
 $EndSheet
+Wire Wire Line
+	10150 6100 9500 6100
+Wire Wire Line
+	10150 6400 9500 6400
+Wire Wire Line
+	9500 6250 10150 6250
 $EndSCHEMATC

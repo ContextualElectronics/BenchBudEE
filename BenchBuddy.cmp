@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/22/2013 9:22:58 PM
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 11/10/2013 8:50:50 PM
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -267,10 +267,31 @@ IdModule  = SOT23-DIODE;
 EndCmp
 
 BeginCmp
-TimeStamp = /523DF54E/523E08BF;
+TimeStamp = /522FEADB/52804A88;
 Reference = JP1;
 ValeurCmp = JUMPER;
-IdModule  = ;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/52804A95;
+Reference = JP2;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/52804A9B;
+Reference = JP3;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /522FEADB/52804AA1;
+Reference = JP4;
+ValeurCmp = JUMPER;
+IdModule  = PIN_ARRAY_2X1;
 EndCmp
 
 BeginCmp
@@ -799,6 +820,13 @@ IdModule  = SM1812;
 EndCmp
 
 BeginCmp
+TimeStamp = /522FEADB/527EFE16;
+Reference = TP1;
+ValeurCmp = CONN_1;
+IdModule  = 1pin;
+EndCmp
+
+BeginCmp
 TimeStamp = /522FEAC6/52560B33;
 Reference = U1;
 ValeurCmp = LTV-816S;
@@ -837,7 +865,7 @@ BeginCmp
 TimeStamp = /523DF54E/525F4568;
 Reference = U6;
 ValeurCmp = LM337T;
-IdModule  = TO220;
+IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
@@ -851,21 +879,21 @@ BeginCmp
 TimeStamp = /523DF54E/525F4380;
 Reference = U8;
 ValeurCmp = LM337T;
-IdModule  = TO220;
+IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/525F3FCD;
 Reference = U9;
 ValeurCmp = LM317;
-IdModule  = TO220;
+IdModule  = TO220_VERT;
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/523E0B74;
 Reference = U11;
 ValeurCmp = LM317;
-IdModule  = TO220;
+IdModule  = TO220_VERT;
 EndCmp
 
 EndListe
