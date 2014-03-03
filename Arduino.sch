@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 11/13/2013 1:25:48 AM
+EESchema Schematic File Version 2  date 11/24/2013 3:13:43 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 8 9
 Title ""
-Date "13 nov 2013"
+Date "24 nov 2013"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,7 +45,7 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 7150 5700 2    60   Output ~ 0
+Text HLabel 7150 4700 2    60   Output ~ 0
 RELAY+
 Text HLabel 9300 5700 2    60   Output ~ 0
 RELAY-
@@ -81,18 +81,16 @@ Wire Wire Line
 $Comp
 L R R41
 U 1 1 52400F79
-P 6650 5700
-F 0 "R41" V 6730 5700 40  0000 C CNN
-F 1 "R" V 6657 5701 40  0000 C CNN
-F 2 "~" V 6580 5700 30  0000 C CNN
-F 3 "~" H 6650 5700 30  0000 C CNN
-	1    6650 5700
+P 6650 4700
+F 0 "R41" V 6730 4700 40  0000 C CNN
+F 1 "R" V 6657 4701 40  0000 C CNN
+F 2 "~" V 6580 4700 30  0000 C CNN
+F 3 "~" H 6650 4700 30  0000 C CNN
+	1    6650 4700
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	7150 5700 6900 5700
-Wire Wire Line
-	6400 5700 6050 5700
+	7150 4700 6900 4700
 Wire Wire Line
 	8500 5700 8500 6100
 $Comp
@@ -479,4 +477,6 @@ Wire Wire Line
 	7150 5500 6900 5500
 Wire Wire Line
 	6900 5300 7150 5300
+Wire Wire Line
+	6400 4700 6050 4700
 $EndSCHEMATC
