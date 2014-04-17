@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date 2/16/2014 3:34:10 PM
+EESchema Schematic File Version 2  date 4/16/2014 11:03:44 PM
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
-Date "16 feb 2014"
+Date "17 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -175,7 +175,7 @@ L R R1
 U 1 1 523BA070
 P 3300 3750
 F 0 "R1" V 3380 3750 40  0000 C CNN
-F 1 "500" V 3307 3751 40  0000 C CNN
+F 1 "200" V 3307 3751 40  0000 C CNN
 F 2 "~" V 3230 3750 30  0000 C CNN
 F 3 "~" H 3300 3750 30  0000 C CNN
 	1    3300 3750

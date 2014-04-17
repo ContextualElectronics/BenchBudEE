@@ -1,0 +1,28 @@
+* C:\Users\Chris\Dropbox\ContextualElectronics\projects\BenchBuddy\SPICE\CurrentSource.asc
+XU1 N002 Sense V+ V- N003 LT1001
+V1 V+ 0 12
+V2 0 V- 12
+R1 Sense 0 1
+M1 FET N003 Sense Sense BSB012NE2LX
+V3 DAC 0 PULSE(.4 0 100m .1m .1m 50m)
+R2 N001 FET 2
+V4 5V 0 5
+D1 FET N001 1N914
+C1 N001 FET 10n
+R5 N002 DAC 1K
+V5 PWM 0 PULSE(0 5 0 .1m .1m 1m 2m 10000)
+M3 N002 PWM 0 0 Si7540DP_N
+R6 V+ N001 2
+M4 Sense MODE 0 0 Si7540DP_N
+V6 MODE 0 0
+.model D D
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\Program Files (x86)\LTC\LTspiceIV\lib\cmp\standard.mos
+.tran 0 .1 0
+* .STEP PARAM Rload 2 20 2
+.PARAM Rload 2
+.lib LTC.lib
+.backanno
+.end
