@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+PCBNEW-LibModule-V1  10/13/2013 11:51:05 PM
+=======
 PCBNEW-LibModule-V1  3/4/2014 12:39:19 AM
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 # encoding utf-8
 Units mm
 $INDEX
@@ -10,6 +14,8 @@ $INDEX
 ATX_Header
 Arduino
 BB_switch
+<<<<<<< HEAD
+=======
 DPAK2-BB
 EVUE3K
 GND_CONNECT
@@ -20,6 +26,7 @@ LED-0603-2
 NR4012
 SM0805-SB
 SM0805-SB2
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 SM0805-blob
 SM1206-NO
 SMA
@@ -973,6 +980,31 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po 1.27 0
 $EndPAD
+<<<<<<< HEAD
+$EndMODULE Arduino
+$MODULE BB_switch
+Po 0 0 0 15 525B6A27 00000000 ~~
+Li BB_switch
+Sc 0
+AR 
+Op 0 0 0
+T0 3.4 -3 1 1 0 0.15 N I 21 N "BB_switch"
+T1 1.6 3.5 1 1 0 0.15 N V 21 N "VAL**"
+DS 4.9 2.3 4.9 4.7 0.15 21
+DS 4.9 4.7 5.3 4.7 0.15 21
+DS 5.3 4.7 5.7 4.2 0.15 21
+DS 5.7 4.2 6.2 4.7 0.15 21
+DS 6.2 4.7 6.6 4.7 0.15 21
+DS 6.6 4.7 6.6 2.3 0.15 21
+DS -0.2 2.2 -0.2 -2.2 0.15 21
+DS -0.2 -2.2 8.4 -2.2 0.15 21
+DS 8.4 -2.2 8.4 2.2 0.15 21
+DS 8.4 2.2 -0.2 2.2 0.15 21
+$PAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At HOLE N 00E0FFFF
+=======
 $PAD
 Sh "" R 1.27 2.54 0 0 0
 Dr 0 0 0
@@ -1088,10 +1120,41 @@ $PAD
 Sh "1" R 1.2 3.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 Ne 0 ""
 Po 0 0
 $EndPAD
 $PAD
+<<<<<<< HEAD
+Sh "" C 1.5 1.5 0 0 0
+Dr 1.5 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 8.2 0
+$EndPAD
+$PAD
+Sh "1" C 1.4 1.4 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 2.1 0
+$EndPAD
+$PAD
+Sh "2" C 1.4 1.4 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 4.1 0
+$EndPAD
+$PAD
+Sh "3" C 1.4 1.4 0 0 0
+Dr 0.8 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 6.1 0
+$EndPAD
+$EndMODULE BB_switch
+=======
 Sh "2" R 1.2 3.7 0 0 0
 Dr 0 0 0
 At SMD N 00888000
@@ -1181,6 +1244,7 @@ Of 0 0 0
 Ro 0 0 0
 $EndSHAPE3D
 $EndMODULE SM0805-SB2
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 $MODULE SM0805-blob
 Po 0 0 0 15 525AE01C 00000000 ~~
 Li SM0805-blob

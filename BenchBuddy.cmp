@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+Cmp-Mod V01 Created by CvPcb (2013-03-19 BZR 4004)-stable date = 10/16/2013 10:01:25 PM
+=======
 Cmp-Mod V01 Created by PcbNew date = 3/4/2014 12:41:01 AM
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 
 BeginCmp
 TimeStamp = /522FEA6C/5251D4C8;
@@ -183,6 +187,8 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+<<<<<<< HEAD
+=======
 TimeStamp = /522FEB54/52915E6E;
 Reference = C26;
 ValeurCmp = C;
@@ -239,6 +245,7 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 TimeStamp = /522FEAC6/523B9961;
 Reference = D1;
 ValeurCmp = LG Q971-KN-1;
@@ -253,10 +260,17 @@ IdModule  = SMA;
 EndCmp
 
 BeginCmp
+<<<<<<< HEAD
+TimeStamp = /523DF54E/525F5B37;
+Reference = D3;
+ValeurCmp = DIODE;
+IdModule  = ;
+=======
 TimeStamp = /523DF54E/52660D76;
 Reference = D3;
 ValeurCmp = MMBD914-7-F;
 IdModule  = SOT23-DIODE;
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 EndCmp
 
 BeginCmp
@@ -274,6 +288,45 @@ IdModule  = SOD-323;
 EndCmp
 
 BeginCmp
+<<<<<<< HEAD
+TimeStamp = /523DF54E/525F5C38;
+Reference = D6;
+ValeurCmp = DIODE;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F6308;
+Reference = D7;
+ValeurCmp = DIODE;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F5A1A;
+Reference = D8;
+ValeurCmp = DIODE;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F600F;
+Reference = D9;
+ValeurCmp = DIODE;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F5E1B;
+Reference = D10;
+ValeurCmp = DIODE;
+IdModule  = ;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/523E08BF;
+Reference = JP1;
+=======
 TimeStamp = /523DF54E/52660812;
 Reference = D6;
 ValeurCmp = MMBD914-7-F;
@@ -339,6 +392,7 @@ EndCmp
 BeginCmp
 TimeStamp = /522FEADB/52804A9B;
 Reference = JP3;
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 ValeurCmp = JUMPER;
 IdModule  = GND_POINT_2;
 EndCmp
@@ -605,7 +659,11 @@ EndCmp
 BeginCmp
 TimeStamp = /523DF54E/525F4570;
 Reference = R18;
+<<<<<<< HEAD
+ValeurCmp = R;
+=======
 ValeurCmp = 715;
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 IdModule  = SM0805;
 EndCmp
 
@@ -626,7 +684,11 @@ EndCmp
 BeginCmp
 TimeStamp = /523DF54E/523E0B81;
 Reference = R21;
+<<<<<<< HEAD
+ValeurCmp = R;
+=======
 ValeurCmp = 715;
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 IdModule  = SM0805;
 EndCmp
 
@@ -932,6 +994,34 @@ IdModule  = ;
 EndCmp
 
 BeginCmp
+TimeStamp = /523DF54E/525F4459;
+Reference = R52;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F4462;
+Reference = R53;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F3FF2;
+Reference = R54;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F3FD3;
+Reference = R55;
+ValeurCmp = R;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
 TimeStamp = /522FEADB/523DFB25;
 Reference = SW1;
 ValeurCmp = Power Switch;
@@ -1082,7 +1172,11 @@ BeginCmp
 TimeStamp = /523DF54E/525F4568;
 Reference = U6;
 ValeurCmp = LM337T;
+<<<<<<< HEAD
+IdModule  = TO220;
+=======
 IdModule  = TO220_BB;
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 EndCmp
 
 BeginCmp
@@ -1096,6 +1190,16 @@ BeginCmp
 TimeStamp = /523DF54E/525F4380;
 Reference = U8;
 ValeurCmp = LM337T;
+<<<<<<< HEAD
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /523DF54E/525F3FCD;
+Reference = U9;
+ValeurCmp = LM317;
+IdModule  = TO220;
+=======
 IdModule  = TO220_BB;
 EndCmp
 
@@ -1104,13 +1208,19 @@ TimeStamp = /523DF54E/529D78EC;
 Reference = U9;
 ValeurCmp = LM317T;
 IdModule  = TO220_BB;
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 EndCmp
 
 BeginCmp
 TimeStamp = /523DF54E/529D799C;
 Reference = U11;
+<<<<<<< HEAD
+ValeurCmp = LM317;
+IdModule  = TO220;
+=======
 ValeurCmp = LM317T;
 IdModule  = TO220_BB;
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 EndCmp
 
 EndListe

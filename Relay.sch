@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+EESchema Schematic File Version 2  date 10/16/2013 9:46:42 PM
+=======
 EESchema Schematic File Version 2  date 4/16/2014 11:04:06 PM
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +41,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 9
 Title ""
+<<<<<<< HEAD
+Date "17 oct 2013"
+=======
 Date "17 apr 2014"
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 Rev ""
 Comp ""
 Comment1 ""
@@ -120,6 +128,20 @@ F 3 "~" H 8800 4900 30  0000 C CNN
 	1    8800 4900
 	1    0    0    -1  
 $EndComp
+<<<<<<< HEAD
+$Comp
+L GND #PWR023
+U 1 1 523B9FB4
+P 8800 5650
+F 0 "#PWR023" H 8800 5650 30  0001 C CNN
+F 1 "GND" H 8800 5580 30  0001 C CNN
+F 2 "" H 8800 5650 60  0000 C CNN
+F 3 "" H 8800 5650 60  0000 C CNN
+	1    8800 5650
+	1    0    0    -1  
+$EndComp
+=======
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 Wire Wire Line
 	8800 5150 8800 5650
 $Comp
@@ -155,10 +177,17 @@ F 3 "~" H 6450 2050 30  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+<<<<<<< HEAD
+L +12P #PWR024
+U 1 1 523BA00D
+P 6450 1450
+F 0 "#PWR024" H 6450 1420 30  0001 C CNN
+=======
 L +12P #PWR019
 U 1 1 523BA00D
 P 6450 1450
 F 0 "#PWR019" H 6450 1420 30  0001 C CNN
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 F 1 "+12P" H 6450 1550 30  0000 C CNN
 F 2 "" H 6450 1450 60  0000 C CNN
 F 3 "" H 6450 1450 60  0000 C CNN

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+EESchema Schematic File Version 2  date 10/16/2013 9:46:42 PM
+=======
 EESchema Schematic File Version 2  date 4/16/2014 11:04:06 PM
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +41,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 9
 Title ""
+<<<<<<< HEAD
+Date "17 oct 2013"
+=======
 Date "17 apr 2014"
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 Rev ""
 Comp ""
 Comment1 ""
@@ -62,6 +70,42 @@ F 3 "" H 3550 3150 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	2150 2950 2850 2950
+<<<<<<< HEAD
+$Comp
+L +5V #PWR019
+U 1 1 523F5D4A
+P 2550 1450
+F 0 "#PWR019" H 2550 1540 20  0001 C CNN
+F 1 "+5V" H 2550 1540 30  0000 C CNN
+F 2 "~" H 2550 1450 60  0000 C CNN
+F 3 "~" H 2550 1450 60  0000 C CNN
+	1    2550 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR020
+U 1 1 523F5D68
+P 2550 2350
+F 0 "#PWR020" H 2550 2350 30  0001 C CNN
+F 1 "GND" H 2550 2280 30  0001 C CNN
+F 2 "~" H 2550 2350 60  0000 C CNN
+F 3 "~" H 2550 2350 60  0000 C CNN
+	1    2550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR021
+U 1 1 523F5D75
+P 3650 4150
+F 0 "#PWR021" H 3650 4150 30  0001 C CNN
+F 1 "GND" H 3650 4080 30  0001 C CNN
+F 2 "~" H 3650 4150 60  0000 C CNN
+F 3 "~" H 3650 4150 60  0000 C CNN
+	1    3650 4150
+	1    0    0    -1  
+$EndComp
+=======
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 Wire Wire Line
 	3650 4150 3650 3900
 $Comp
@@ -132,6 +176,20 @@ Wire Wire Line
 	5150 1650 10400 1650
 Wire Wire Line
 	9400 1650 9400 1900
+<<<<<<< HEAD
+$Comp
+L GND #PWR022
+U 1 1 523F5E22
+P 9400 2450
+F 0 "#PWR022" H 9400 2450 30  0001 C CNN
+F 1 "GND" H 9400 2380 30  0001 C CNN
+F 2 "~" H 9400 2450 60  0000 C CNN
+F 3 "~" H 9400 2450 60  0000 C CNN
+	1    9400 2450
+	1    0    0    -1  
+$EndComp
+=======
+>>>>>>> e650786e2b8e707722b2ac9667c98801904668f3
 Wire Wire Line
 	9400 2300 9400 2450
 Connection ~ 9400 1650
