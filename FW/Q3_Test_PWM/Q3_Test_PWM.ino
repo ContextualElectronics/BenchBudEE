@@ -36,20 +36,22 @@ void loop() {
   digitalWrite(SHDN_N,HIGH);
   digitalWrite(FAN_PWM,LOW);
   MCP4801Write(10);
-/*  int pwm = 0;
-  for (int pwmlevel = 1; pwmlevel < 4; pwmlevel++) {
+  int pwm = 0;
+  digitalWrite(FAN_MODE,HIGH);
+  Serial.println("Fan Mod = HIGH");
+  Serial.println("");
+  for (int pwmlevel = 3; pwmlevel >= 0; pwmlevel--) {
   
-    pwm=((pwmlevel * 64) - 1);
+    pwm=((pwmlevel * 64) );
     analogWrite(FAN_PWM, pwm);
     delay(5000);
     Serial.print("PWM Level = ");
     Serial.println(pwm);
     Serial.println("");
-  }
-*/
-  digitalWrite(FAN_MODE,HIGH);
-  delay(5000);
+  }  
   digitalWrite(FAN_MODE,LOW);
+  Serial.println("Fan Mod = LOW`");
+  Serial.println("");
   delay(5000);
   // wait a second at the top:
   
