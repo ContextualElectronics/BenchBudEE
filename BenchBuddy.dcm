@@ -1,0 +1,16 @@
+EESchema-DOCLIB  Version 2.0  Date: 10/13/2013 8:27:54 PM
+#
+$CMP MOS_N_NUM
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP MOSFET_N
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP SPDT
+D Single Pole, Double Throw
+K Relay
+$ENDCMP
+#
+#End Doc Library

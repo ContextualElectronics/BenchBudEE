@@ -1,0 +1,318 @@
+EESchema Schematic File Version 2  date 4/18/2014 9:49:53 PM
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:BenchBuddy
+LIBS:BenchBuddy-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 9
+Title ""
+Date "19 apr 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 1900 4550 0    60   Input ~ 0
+V+_ADJ
+Text HLabel 1900 4400 0    60   Input ~ 0
+V-_ADJ
+Text HLabel 1875 2600 0    60   Output ~ 0
+FAN_OUT+
+Text HLabel 1875 2325 0    60   Output ~ 0
+FAN_OUT-
+Text HLabel 1875 2150 0    60   Input ~ 0
+TACH_IN
+Text HLabel 1450 900  0    60   Output ~ 0
+LED_STRING+
+Text HLabel 1425 1350 0    60   Output ~ 0
+LED_STRING-
+Text HLabel 1825 3000 0    60   Input ~ 0
+TC_IN+
+Text HLabel 1825 2825 0    60   Input ~ 0
+TC_IN-
+Text HLabel 2850 5500 0    60   BiDi ~ 0
+RELAY_COM
+Text HLabel 2850 5200 0    60   BiDi ~ 0
+RELAY_NO
+Text HLabel 2850 5800 0    60   BiDi ~ 0
+RELAY_NC
+$Comp
+L +3.3V #PWR040
+U 1 1 523FFDA7
+P 750 3500
+F 0 "#PWR040" H 750 3460 30  0001 C CNN
+F 1 "+3.3V" H 750 3610 30  0000 C CNN
+F 2 "~" H 750 3500 60  0000 C CNN
+F 3 "~" H 750 3500 60  0000 C CNN
+	1    750  3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_12 P4
+U 1 1 5258A829
+P 8100 1450
+F 0 "P4" V 8050 1450 60  0000 C CNN
+F 1 "12 Pin Terminal Block" V 8150 1450 60  0000 C CNN
+F 2 "12pinTB" H 8100 1450 60  0000 C CNN
+F 3 "" H 8100 1450 60  0000 C CNN
+F 4 "On Shore" H 8100 1450 60  0001 C CNN "MFG Name"
+F 5 "OSTTE120104" H 8100 1450 60  0001 C CNN "MFG Part Number"
+	1    8100 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1425 1350 2050 1350
+Wire Wire Line
+	2050 1350 2050 1000
+Wire Wire Line
+	2050 1000 7750 1000
+Wire Wire Line
+	2200 1100 7750 1100
+Wire Wire Line
+	2200 1100 2200 2150
+Wire Wire Line
+	2350 1200 2350 2325
+Wire Wire Line
+	2350 1200 7750 1200
+Wire Wire Line
+	7750 1300 2500 1300
+Wire Wire Line
+	2500 1300 2500 2600
+Wire Wire Line
+	2700 2825 2700 1400
+Wire Wire Line
+	2700 1400 7750 1400
+Wire Wire Line
+	1800 3350 3000 3350
+Wire Wire Line
+	1000 3600 3200 3600
+Wire Wire Line
+	750  4100 3400 4100
+Wire Wire Line
+	2850 3000 2850 1500
+Wire Wire Line
+	2850 1500 7750 1500
+Wire Wire Line
+	7750 1600 3000 1600
+Wire Wire Line
+	3000 1600 3000 3350
+Wire Wire Line
+	3200 3600 3200 1700
+Wire Wire Line
+	3200 1700 7750 1700
+Wire Wire Line
+	7750 1800 3400 1800
+Wire Wire Line
+	3400 1800 3400 4100
+Wire Wire Line
+	1900 4400 3550 4400
+Wire Wire Line
+	3550 4400 3550 1900
+Wire Wire Line
+	3550 1900 7750 1900
+Wire Wire Line
+	7750 2000 3750 2000
+Wire Wire Line
+	3750 2000 3750 4550
+Wire Wire Line
+	3750 4550 1900 4550
+$Comp
+L CONN_3 P5
+U 1 1 5258AA07
+P 3800 5500
+F 0 "P5" V 3750 5500 50  0000 C CNN
+F 1 "3 Pin TB" V 3850 5500 40  0000 C CNN
+F 2 "3pinTB" H 3800 5500 60  0000 C CNN
+F 3 "" H 3800 5500 60  0000 C CNN
+F 4 "Phoenix" H 3800 5500 60  0001 C CNN "MFG Name"
+F 5 "1935174" H 3800 5500 60  0001 C CNN "MFG Part Number"
+	1    3800 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3450 5500 2850 5500
+Wire Wire Line
+	2850 5200 3250 5200
+Wire Wire Line
+	3250 5200 3250 5400
+Wire Wire Line
+	3250 5400 3450 5400
+Wire Wire Line
+	3450 5600 3250 5600
+Wire Wire Line
+	3250 5600 3250 5800
+Wire Wire Line
+	3250 5800 2850 5800
+Wire Wire Line
+	750  4100 750  3500
+Wire Wire Line
+	1825 3000 2850 3000
+Wire Wire Line
+	2350 2325 1875 2325
+Wire Wire Line
+	2500 2600 1875 2600
+Wire Wire Line
+	2200 2150 1875 2150
+Wire Wire Line
+	1825 2825 2700 2825
+Wire Wire Line
+	1450 900  7750 900 
+$Comp
+L GND_PWR #PWR041
+U 1 1 527EF77D
+P 1000 3875
+F 0 "#PWR041" H 1000 3875 30  0001 C CNN
+F 1 "GND_PWR" H 1000 3805 30  0000 C CNN
+F 2 "~" H 1000 3875 60  0000 C CNN
+F 3 "~" H 1000 3875 60  0000 C CNN
+	1    1000 3875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1000 3600 1000 3875
+Wire Wire Line
+	1800 3200 1800 3350
+$Comp
+L +5P #PWR48
+U 1 1 52831A41
+P 1800 3200
+F 0 "#PWR48" H 1800 3330 20  0001 C CNN
+F 1 "+5P" H 1800 3300 30  0000 C CNN
+F 2 "~" H 1800 3200 60  0000 C CNN
+F 3 "~" H 1800 3200 60  0000 C CNN
+	1    1800 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R56
+U 1 1 52915224
+P 6300 2450
+F 0 "R56" V 6380 2450 40  0000 C CNN
+F 1 "0" V 6307 2451 40  0000 C CNN
+F 2 "SM0805" V 6230 2450 30  0000 C CNN
+F 3 "~" H 6300 2450 30  0000 C CNN
+	1    6300 2450
+	1    0    0    1   
+$EndComp
+$Comp
+L GND_PWR #PWR042
+U 1 1 52915231
+P 5650 3450
+F 0 "#PWR042" H 5650 3450 30  0001 C CNN
+F 1 "GND_PWR" H 5650 3380 30  0000 C CNN
+F 2 "~" H 5650 3450 60  0000 C CNN
+F 3 "~" H 5650 3450 60  0000 C CNN
+	1    5650 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3200 6300 2700
+$Comp
+L C C29
+U 1 1 52915CE9
+P 5600 2500
+F 0 "C29" H 5600 2600 40  0000 L CNN
+F 1 "10U" H 5606 2415 40  0000 L CNN
+F 2 "SM1210" H 5638 2350 30  0000 C CNN
+F 3 "~" H 5600 2500 60  0000 C CNN
+	1    5600 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 2200 6300 1100
+Connection ~ 6300 1100
+Wire Wire Line
+	4500 3200 6300 3200
+Wire Wire Line
+	5650 3200 5650 3450
+Wire Wire Line
+	5600 2700 5600 3200
+Connection ~ 5650 3200
+$Comp
+L C C28
+U 1 1 52915E58
+P 5250 2500
+F 0 "C28" H 5250 2600 40  0000 L CNN
+F 1 "10U" H 5256 2415 40  0000 L CNN
+F 2 "SM1210" H 5288 2350 30  0000 C CNN
+F 3 "~" H 5250 2500 60  0000 C CNN
+	1    5250 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C27
+U 1 1 52915E5E
+P 4900 2500
+F 0 "C27" H 4900 2600 40  0000 L CNN
+F 1 "10U" H 4906 2415 40  0000 L CNN
+F 2 "SM1210" H 4938 2350 30  0000 C CNN
+F 3 "~" H 4900 2500 60  0000 C CNN
+	1    4900 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C26
+U 1 1 52915E6E
+P 4500 2500
+F 0 "C26" H 4500 2600 40  0000 L CNN
+F 1 "10U" H 4506 2415 40  0000 L CNN
+F 2 "SM1210" H 4538 2350 30  0000 C CNN
+F 3 "~" H 4500 2500 60  0000 C CNN
+	1    4500 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2700 4500 3200
+Connection ~ 5600 3200
+Wire Wire Line
+	5250 2700 5250 3200
+Connection ~ 5250 3200
+Wire Wire Line
+	4900 2700 4900 3200
+Connection ~ 4900 3200
+Wire Wire Line
+	5600 2300 5600 2000
+Connection ~ 5600 2000
+Wire Wire Line
+	5250 2300 5250 1900
+Connection ~ 5250 1900
+Wire Wire Line
+	4900 2300 4900 1800
+Connection ~ 4900 1800
+Wire Wire Line
+	4500 2300 4500 1600
+Connection ~ 4500 1600
+$EndSCHEMATC
