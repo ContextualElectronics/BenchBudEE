@@ -19,6 +19,10 @@ void setup() {
   pinMode (DAC_CS_N, OUTPUT);
   pinMode (LDAC_N, OUTPUT);
   pinMode (SHDN_N, OUTPUT);
+  
+  // This need to go low if you are reading output
+  digitalWrite(LDAC_N,LOW); // YOU MUST HAVE THIS.  If it FLOATS or is HIGH, it will not work bth 3.9.2015
+
   // initialize SPI:
   SPI.begin(); 
   Serial.begin(9600);
